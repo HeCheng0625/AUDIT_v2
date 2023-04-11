@@ -23,9 +23,9 @@ freesound
 nums:
 text: caption
 
-audioset
-
 vggsound
+nums:
+text: label
 
 test:
 ac_test
