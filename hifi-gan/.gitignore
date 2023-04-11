@@ -1,0 +1,5 @@
+test_files
+test_outputs
+test_mel_files
+generated_files_from_mel
+__pycache__
