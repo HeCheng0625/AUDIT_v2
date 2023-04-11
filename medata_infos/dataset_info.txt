@@ -1,0 +1,33 @@
+train:
+ac_train
+nums: 45435
+text: caption
+
+ac_eval
+nums: 449
+text: caption
+
+audioset_sl
+nums:
+nums: caption, label
+
+soundbible
+nums:
+text: caption
+
+bbc
+nums:
+text: caption
+
+freesound
+nums:
+text: caption
+
+audioset
+
+vggsound
+
+test:
+ac_test
+nums: 887
+text: caption
