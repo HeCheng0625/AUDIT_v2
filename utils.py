@@ -55,23 +55,27 @@ class Discriminator(nn.Module):
         x = self.conv1(x)
         for f in self.down1:
             x = f(x)
+        res = x
         for f in self.mid1:
-            res = f(x)
+            x = f(x)
         x = res + x
         for f in self.down2:
             x = f(x)
+        res = x
         for f in self.mid2:
-            res = f(x)
+            x = f(x)
         x = res + x
         for f in self.down3:
             x = f(x)
+        res = x
         for f in self.mid3:
-            res = f(x)
+            x = f(x)
         x = res + x
         for f in self.down4:
             x = f(x)
+        res = x
         for f in self.mid4:
-            res = f(x)
+            x = f(x)
         x = res + x
         x = self.lin1(x)
         x = F.selu(x)
@@ -85,8 +89,3 @@ def gan_loss_real(x_real, device):
 def gan_loss_fake(x_fake, device):
     loss_fake = F.cross_entropy(x_fake, torch.zeros((x_fake.shape[0], x_fake.shape[-2], x_fake.shape[-1])).to(torch.int64).to(device))
     return loss_fake
-
-# model = Discriminator()
-# print(sum(p.numel() for p in model.parameters()))
-# x = torch.randn(10, 1, 80, 624)
-# print(model(x).shape)
