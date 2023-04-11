@@ -23,6 +23,6 @@ for info in tqdm(bbc_infos[:]):
         continue
     try:
         myfile = requests.get(url)
-        open(os.path.join(save_path, id+".wav"), 'wb').write(myfile.content)
+        open(os.path.join(save_path, id+".zip"), 'wb').write(myfile.content)
     except:
         continue
