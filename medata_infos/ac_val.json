@@ -1,0 +1,1798 @@
+[
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rqfQRErjfk8_170000_180000.npy",
+        "caption": "An audience cheers"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rqu8iB22I_Y_5000_15000.npy",
+        "caption": "People yell and laugh as a vehicle approaches and sputters"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rwT__ERCUno_90000_100000.npy",
+        "caption": "An engine is idling while people speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rwb6PSAee5Y_60000_70000.npy",
+        "caption": "A toilet flushes and water drains"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rwtmaKiCcQU_30000_40000.npy",
+        "caption": "A person sprays liquid onto a hard surface as a man speaks and vehicles pass by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ryFDPxgDOGc_570000_580000.npy",
+        "caption": "Insects chirp and men speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s-T9OVOiMLo_330000_340000.npy",
+        "caption": "Insects buzz around and men talk"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s3W19T14v1g_40000_50000.npy",
+        "caption": "Vehicles pass by on a road"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s3cT_DAj31g_80000_90000.npy",
+        "caption": "An adult man speaks and a woman exclaims nervously"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s4Uz1Ffgo04_100000_110000.npy",
+        "caption": "A vehicle with a diesel engine accelerates"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s4tUs779vBA_160000_170000.npy",
+        "caption": "A motor runs choppily, followed by an animal croaking, and a person exclaiming"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s59PfAghdkM_0_10000.npy",
+        "caption": "Birds chirp then a girl speaks and a horse neighs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s6DESzUTGjY_16000_26000.npy",
+        "caption": "Water is gurgling in a tank"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s7knHCFW82w_30000_40000.npy",
+        "caption": "A horn loudly blares"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sAam2NqGhLY_20000_30000.npy",
+        "caption": "Distant faint rustling and clattering with nearby wheezing and snoring"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sC_i_y7QS1U_300000_310000.npy",
+        "caption": "A motorcycle engine runs and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sCeWURVHfOM_30000_40000.npy",
+        "caption": "A clock ticktocks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sDSppXIlJrs_27000_37000.npy",
+        "caption": "Water splashes and wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sEprKHm8Sj8_90000_100000.npy",
+        "caption": "A race car accelerates quickly before decelerating and squealing tires"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sG7TyPnFDR0_180000_190000.npy",
+        "caption": "A man speaks followed by a two beeps and another man speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sGgBtiZY0U8_30000_40000.npy",
+        "caption": "Girls scream and a man speaks as wind blows and a boat motor runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sHbXC6na9hg_0_10000.npy",
+        "caption": "An engine runs and people speak as cutting takes place"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sIXTftIuUgw_90000_100000.npy",
+        "caption": "A person whistling a melody"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sK4u5T8hW78_30000_40000.npy",
+        "caption": "A man speaks while wind blows and a car is passing by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sLUnaPT5gM8_0_10000.npy",
+        "caption": "A person blows raspberries while a baby laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sLkeqCDJIyw_120000_130000.npy",
+        "caption": "A person is snoring while sleeping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sMC07Ucy7kg_10000_20000.npy",
+        "caption": "A magazine is loaded and gunfire occurs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sNB8zxXneIM_20000_30000.npy",
+        "caption": "Cows moo and are then joined by rooster crowing and then ducks quacking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sOa7g-44Dag_30000_40000.npy",
+        "caption": "An adult male speaks over continuous rubbing noise"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sQGXqGcwOTc_3000_13000.npy",
+        "caption": "Loud, rapid clanking followed by brief speech"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sQwlkXjQabo_10000_20000.npy",
+        "caption": "Someone sprays a liquid onto a hard surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sSMl2vc3e_k_20000_30000.npy",
+        "caption": "Someone snores while a person laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sShpyu2l4YQ_0_10000.npy",
+        "caption": "Dogs bark and whimper"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sTpirNYo8vQ_30000_40000.npy",
+        "caption": "Multiple people speak as vehicle horns blow"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sU53zg9Jp7s_380000_390000.npy",
+        "caption": "A bell chimes quietly while a bird chirps and a woman gasps as ominous music plays"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sUVVjE3Ucp8_0_10000.npy",
+        "caption": "A large bell rings and echoes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sW_ZzX_uWYY_420000_430000.npy",
+        "caption": "Humming and vibrations of a small machine with a man speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sYITalLZjj4_30000_40000.npy",
+        "caption": "Wind gusts near a stream as birds chirp"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sYj4hpDUZDQ_30000_40000.npy",
+        "caption": "A dark barks and whines"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sZPuqDgX2V0_30000_40000.npy",
+        "caption": "Motors sputter over an indistinct conversation"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sZuuj08Gr_I_150000_160000.npy",
+        "caption": "Some rustling and a woman speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sZvwOuuPGP0_50000_60000.npy",
+        "caption": "A diesel truck engine runs steadily"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s_apQIQUhFc_280000_290000.npy",
+        "caption": "Some men converse while water bubbles in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sa6TLVbooCc_240000_250000.npy",
+        "caption": "People speak and children laugh"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/scYRUkrFLiQ_30000_40000.npy",
+        "caption": "A meandering tune is whistled"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sd7x_Vssqlw_50000_60000.npy",
+        "caption": "Humming of a powerful passing engine speeding by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sd_XV-ylviw_190000_200000.npy",
+        "caption": "A toilet flushes and water drains"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sdv_I1mHAsc_20000_30000.npy",
+        "caption": "A woman yells and fidgets over insect noises"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/se87d6yxEOA_10000_20000.npy",
+        "caption": "A steam train moves along a set of tracks and blows a horn"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sfAvvZwdLCY_20000_30000.npy",
+        "caption": "A toilet flushes and water drains"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sfk9D8cQEAg_70000_80000.npy",
+        "caption": "Paper rustles as objects bang and clatter"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sgAjFcKriHk_60000_70000.npy",
+        "caption": "An aircraft engine runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/shmR4OZtzqA_30000_40000.npy",
+        "caption": "An adult male speaks over low engine noise"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/siJFXfGWgDk_50000_60000.npy",
+        "caption": "A man speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sjlVMgdGSK0_30000_40000.npy",
+        "caption": "A vehicle engine accelerates and then another vehicle revs an engine and accelerates"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sk3WTKnlJ-U_30000_40000.npy",
+        "caption": "A man speaks as a motorboat runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/skd2PphS6oI_190000_200000.npy",
+        "caption": "A telephone rings then is picked up"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/slZLHwNbbt4_300000_310000.npy",
+        "caption": "The clickety-clack of a train on rails then a train horn blows and the train goes by closely"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sm74QGpHDXg_20000_30000.npy",
+        "caption": "A person is typing on a keyboard while a character in a video game speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/smDKStoHBJo_0_10000.npy",
+        "caption": "A baby cries and a woman speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/smGI3C1N_Zc_30000_40000.npy",
+        "caption": "A toilet flushes and water drains out"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/snFy48Lv3r8_30000_40000.npy",
+        "caption": "Wind blows as water flows quickly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sncRqQ67iJU_460000_470000.npy",
+        "caption": "A person breathes thickly and snores"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/soTOh3zYJfY_40000_50000.npy",
+        "caption": "Engines roar and race as tires screech and squeal"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sofxkNWaP0s_30000_40000.npy",
+        "caption": "A loud aircraft engine pierces the air and increases in strength as it draws nearer muffling the speech of those present."
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/spJCm8tD9Zo_90000_100000.npy",
+        "caption": "A person loudly snoring three times"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/spYNpeN7rPY_1000_11000.npy",
+        "caption": "A man speaks then a clock ticktocks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sppL1JLyvXQ_30000_40000.npy",
+        "caption": "A woman speaks while on a bus which is driving along a road"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sq29diRPtbA_270000_280000.npy",
+        "caption": "Tapping occurs and men speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sr1_Gfm0syI_140000_150000.npy",
+        "caption": "A crowd cheers and applause followed by a buzzer"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/su6FAOcOA8c_4000_14000.npy",
+        "caption": "A vehicle engine idles as a woman makes an announcement"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sxIvBMSavMQ_210000_220000.npy",
+        "caption": "Birds chirp and animals vocalize"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sxYkFKFIZD0_20000_30000.npy",
+        "caption": "A car tire squeals and a man speaks followed by a door opening and closing and some tearing occurs."
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/syyyCQcHSfQ_60000_70000.npy",
+        "caption": "A sleeping person makes a snoring sound"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t25U-v4k4ts_40000_50000.npy",
+        "caption": "A man speaks as insects are buzzing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t4Azt5G_n9I_130000_140000.npy",
+        "caption": "A machine vibrates for a long time"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t4WCFbE0A50_30000_40000.npy",
+        "caption": "Food sizzles as someone prepares a meal"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t5ZbXbniOWk_30000_40000.npy",
+        "caption": "A propeller spins and ticks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t69a8aRKhmc_30000_40000.npy",
+        "caption": "Two men speak and doves coo in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t8CV69hcvF0_210000_220000.npy",
+        "caption": "A person sneezes then speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t8tv5YRMJUg_0_10000.npy",
+        "caption": "A person snores in small bursts"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t97k0cejSQE_250000_260000.npy",
+        "caption": "Birds chirp in the distance followed by bees buzzing loudly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tB7hWb9gTuQ_30000_40000.npy",
+        "caption": "Water splashes and dribbles against a hard surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tDVADusiIoc_60000_70000.npy",
+        "caption": "Water splashes and wind blows as a man speaks on a radio"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tDlfY3nmx1A_160000_170000.npy",
+        "caption": "An audience gives applause while a man laughs then he speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tDlysoZiA1I_0_10000.npy",
+        "caption": "A dog whimpers with birds chirping in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tEE3MpBt1sg_50000_60000.npy",
+        "caption": "Men laugh and speak while using a drill"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tFCUUGdREgA_70000_80000.npy",
+        "caption": "The hoofs of a horse clatter on the ground while a man speaks and then laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tG_cFnX0GHI_0_10000.npy",
+        "caption": "A telephone rings and a woman begins speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tH-q8LXgHEc_70000_80000.npy",
+        "caption": "Birds chirping and cooing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tH17JPjDPnc_260000_270000.npy",
+        "caption": "Metal clangs while goats baa"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tHJ6JSa8_Y4_0_10000.npy",
+        "caption": "Small fidgeting noises are followed by a single beep"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tHyNqRyK34A_24000_34000.npy",
+        "caption": "Discordant musical underscores an ominous man speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tIY7qOV3rEM_0_10000.npy",
+        "caption": "A dog barks continuously and a goat bleats"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tIk3enR8Yy4_30000_40000.npy",
+        "caption": "Winds fiercely blow as a group of people speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tK4VlLsNxak_120000_130000.npy",
+        "caption": "A man speaks as he dials an old-fashioned phone"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tMJne1a4AFI_0_10000.npy",
+        "caption": "Many insects buzz as a wind lightly gusts"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tMbMDvT50j8_12000_22000.npy",
+        "caption": "A child cries while a woman talks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tOS_WIURC-4_0_10000.npy",
+        "caption": "A motorcycle engine roars"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tO_j4tdLRaA_70000_80000.npy",
+        "caption": "A baby cries loudly while a woman laughs and speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tPJvjq9QePY_40000_50000.npy",
+        "caption": "Animals bleat as a person speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tQWGZLItBXk_170000_180000.npy",
+        "caption": "Cartoonist music is followed by a squeaky voice"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tRJVUSdMjQI_30000_40000.npy",
+        "caption": "A woman talks and a man laughs and talks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tTKJR_oYdhw_11000_21000.npy",
+        "caption": "A sheep baas followed by a pig oinking, then a loud explosion and a grunt"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tZGN5a7ybxo_60000_70000.npy",
+        "caption": "A railroad car approaches from the distant, followed by a man speaking and a train horn"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tbLjCaI0-Lo_80000_90000.npy",
+        "caption": "A person whistles as a light wind rustles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tc7UjDIyobI_10000_20000.npy",
+        "caption": "Several birds tweet nearby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tcd9QCdjTI0_40000_50000.npy",
+        "caption": "Rain falls on a hard surface and thunder roars"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tdWhHV3X25Q_60000_70000.npy",
+        "caption": "An audience cheers and applaud while a man talks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tezvROoo4bs_40000_50000.npy",
+        "caption": "A car revs up, and then a person talks nearby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tfwqvvLzC0E_30000_40000.npy",
+        "caption": "Several people chatter over a motor noise and a rustling breeze"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tgbONvsP47Y_0_10000.npy",
+        "caption": "An engine runs over traffic noises"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ti_DFTC-5vU_30000_40000.npy",
+        "caption": "A duck quacks with people speaking and laughing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tjmoSi330GM_23000_33000.npy",
+        "caption": "A medium sized engine runs and a man talks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tqQp8lSf-V4_0_10000.npy",
+        "caption": "An engine stutters"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tqR406bGi_E_40000_50000.npy",
+        "caption": "A toilet flushes and water drains"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ttUaPa1mkgU_230000_240000.npy",
+        "caption": "A repeated hissing and ticking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tvP4E1r7yk8_120000_130000.npy",
+        "caption": "Wind blows hard as a train horn sounds and the train approaches"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tw76HGONaKg_570000_580000.npy",
+        "caption": "A man speaks over keyboard sounds and some background electronic music"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u--KhUW8l1Y_0_10000.npy",
+        "caption": "A vehicle engine runs while a siren rings out and a horn blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u-6osTkkOfY_80000_90000.npy",
+        "caption": "A car travels along a road followed by water hissing loudly as it runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u0T_rcHhkPQ_20000_30000.npy",
+        "caption": "Motors run as rough wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u21-Z5gJCB8_30000_40000.npy",
+        "caption": "A man speaks while a television plays in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u2f5NpsoHBg_30000_40000.npy",
+        "caption": "A woman speaks as audience members respond enthusiastically"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u5RmF3c3_Aw_60000_70000.npy",
+        "caption": "Multiple vehicles race by and a struggling engine sputters"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u6BnG6YZqJ4_0_10000.npy",
+        "caption": "A person whistles nearby several times"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u6jIvCtKarQ_70000_80000.npy",
+        "caption": "Glass clinks and a male speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u7C-_AEBQ_M_30000_40000.npy",
+        "caption": "A clock ticktocks and wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u89op5xq8HI_50000_60000.npy",
+        "caption": "A woman speaks while a baby laughs and speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u9A6VZQCZpU_30000_40000.npy",
+        "caption": "A man speaks on an intercom as speedboats pass by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uC9dtII1KDI_150000_160000.npy",
+        "caption": "A person speaks while wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uCuo8zAkTvE_90000_100000.npy",
+        "caption": "Heavy rain falls in a surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uEU-Hg5MTN8_27000_37000.npy",
+        "caption": "Children speak and laugh then a pig oinks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uFoga8sHpiw_90000_100000.npy",
+        "caption": "A person whistles a tune"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uGS7O46tlSo_70000_80000.npy",
+        "caption": "A man speaks quietly as a buffeting wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uJV8NDaHqqk_100000_110000.npy",
+        "caption": "Birds chirp softly as insects buzz"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uJe1Gvp-MeM_40000_50000.npy",
+        "caption": "A single bird is chirping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uK5doE8g_nY_80000_90000.npy",
+        "caption": "A motor sputters and runs choppily"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uKCSGgof8gI_12000_22000.npy",
+        "caption": "Humming and rustling of a fire truck passing in the distance with its siren ringing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uMT_TDZ2mb4_30000_40000.npy",
+        "caption": "A crowd of men and woman chatter as a vehicle goes by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uOJJan5RRGo_120000_130000.npy",
+        "caption": "A child speaks while interference takes place"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uOpoD0gGXcs_120000_130000.npy",
+        "caption": "A person whistles and yells as wind lightly gusts"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uP_Dn2BFTHk_140000_150000.npy",
+        "caption": "A female laughs as a baby fidgets and babbles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uRExseg-0XI_210000_220000.npy",
+        "caption": "A woman speaks as water flows, then the water stops, and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uRlbY6_aoBU_0_10000.npy",
+        "caption": "A person sniffles then sneezes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uWAAAL4CIoc_0_10000.npy",
+        "caption": "A woman speaks as a bird chirps"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uWCKXYVzJt0_30000_40000.npy",
+        "caption": "A cuckoo clock chimes and whistles then stops and keeps on ticking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uWPRNLnpy7Y_10000_20000.npy",
+        "caption": "A car accelerating and roaring as it speeds by followed by a man laughing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uXxVebHsGZ8_30000_40000.npy",
+        "caption": "A man speaks as a clock ticktocks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uYT5gxnyMWM_50000_60000.npy",
+        "caption": "A girl speaks with spraying followed by a woman screaming in the background and then two girls converse"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uZesmtKZGSw_250000_260000.npy",
+        "caption": "Two male voices talking one after the other, all the while race cars are constantly zooming by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ucQikcv96gM_150000_160000.npy",
+        "caption": "A bird makes puttering sounds repeatedly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ueri5ZFoY7w_0_10000.npy",
+        "caption": "A vehicle accelerates quickly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ugHJF0hfYkg_10000_20000.npy",
+        "caption": "A motor runs efficiently"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uiItxDsDMFI_30000_40000.npy",
+        "caption": "A saw cuts roughly through something"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uiNuH51lzVY_130000_140000.npy",
+        "caption": "A man speaks as flowing water accompanies him"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uiS58TNyUiw_430000_440000.npy",
+        "caption": "A grown man talks calmly while a creature produces low grunts"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ujMt0-D-x2k_0_10000.npy",
+        "caption": "A person is snoring while sleeping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ujjK7WUHxss_30000_40000.npy",
+        "caption": "Wind sounds blow nearby, and then sheep bleat, followed by people talking quietly nearby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ukg5L09Wpvo_150000_160000.npy",
+        "caption": "A horn blares repeatedly against a backdrop of clanging metal and chugging machinery"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ukxt9I7eMMg_30000_40000.npy",
+        "caption": "Food sizzles as a woman and a man speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ul60S8TXDA8_60000_70000.npy",
+        "caption": "A series of electronic beeps is followed by soft music"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uln8131faVs_30000_40000.npy",
+        "caption": "A speedboat engine revs then accelerates quickly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/un9VQ_lzgZM_5000_15000.npy",
+        "caption": "A woman speaks and another laughs as wind blows and a foghorn sounds"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uoGVs9yUqY4_30000_40000.npy",
+        "caption": "Chirping and clanking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uqFtmnhuqA8_30000_40000.npy",
+        "caption": "A clock rings and ticktocks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uqFvD_nXw8I_160000_170000.npy",
+        "caption": "Aircraft fly overhead and music plays"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uyRfq-jKPpo_50000_60000.npy",
+        "caption": "Water is running through a sink as some water goes down the sink"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uyznsufCKbA_170000_180000.npy",
+        "caption": "A drill runs continuously before stopping abruptly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uzQnlJXBbOM_50000_60000.npy",
+        "caption": "A telephone rings and a man speaks before answering"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v-HKXQkpsD8_30000_40000.npy",
+        "caption": "A fire engine sounds a siren and blows a horn"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v-g-j2uTByM_30000_40000.npy",
+        "caption": "Ticking of a clock with light electrical humming in the distance"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v-wcQf4BDY0_120000_130000.npy",
+        "caption": "Multiple dogs bark"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v0wPrLBI3hg_30000_40000.npy",
+        "caption": "A man speaks as pigeons vocalize and walk around"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v0x1odnXtP0_210000_220000.npy",
+        "caption": "Someone is typing on a computer keyboard"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v25l1jef3JY_0_10000.npy",
+        "caption": "An insect buzzes around continuously"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v3EwremxU2w_70000_80000.npy",
+        "caption": "Several dogs barking with light scraping and tapping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v5P-ThUCINM_400000_410000.npy",
+        "caption": "White noise and a man speaking with birds chirping in the distance"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v5cSxLaHADY_0_10000.npy",
+        "caption": "Paper is crumpled and torn"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v7Pz4dWmggg_30000_40000.npy",
+        "caption": "A woman speaks and consoles a crying baby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v7jJ_S8aAyA_10000_20000.npy",
+        "caption": "Low rumbling humming of an idling engine with wind blowing hard"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v8bbhO8NvPY_30000_40000.npy",
+        "caption": "Water flows in the background while there is ticking followed by a gong"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v8vMLTp5Dww_210000_220000.npy",
+        "caption": "Wind blows as rain falls on a hard surface and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vBHyYJ8p_L0_2000_12000.npy",
+        "caption": "A door opens and closes, then repeats"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vBeI4j_kJro_16000_26000.npy",
+        "caption": "A man speaks haltingly as a baby stirs softly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vBslzh7saPw_90000_100000.npy",
+        "caption": "A jet engine spools up quickly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vD6lYD1l0BY_330000_340000.npy",
+        "caption": "A man speaks as a liquid is sprayed making a hiss noise"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vGj1XLJvNrw_0_10000.npy",
+        "caption": "A emergency siren is triggered and moves getting closer"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vH4z5OI5aNY_30000_40000.npy",
+        "caption": "Several men talk while objects are tapped followed by an engine working in idle"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vHZQht-r5fg_10000_20000.npy",
+        "caption": "A sleeping male snores and inhales loudly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vJ7JPEFhyLA_16000_26000.npy",
+        "caption": "Three men talk while wind blows and liquid flows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vJrjSeP17yE_40000_50000.npy",
+        "caption": "A person snores"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vJvryTwuAV8_16000_26000.npy",
+        "caption": "People chant loudly then something pops and the people continue to chant then they begin screaming"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vK93VuO0yNc_30000_40000.npy",
+        "caption": "An engine runs as metal clings"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vKrYfzleLB8_110000_120000.npy",
+        "caption": "People are talking as gun is fired"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vMDHu7Lxcgw_410000_420000.npy",
+        "caption": "A group of kids talking and yelling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vMf1dLD6Sng_6000_16000.npy",
+        "caption": "Water trickles as frogs croak loudly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vSeGhaZt-aI_50000_60000.npy",
+        "caption": "Water runs on and off as a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vVNMuFixN_A_90000_100000.npy",
+        "caption": "Wind blows into a microphone and waves crash"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vVhthZ45k3Y_30000_40000.npy",
+        "caption": "A cat meows while a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vW4x7S1VfQc_150000_160000.npy",
+        "caption": "Food is frying loudly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vXlk0lIQBFo_470000_480000.npy",
+        "caption": "Women speak among themselves while outside, the wind blows strongly and wind chimes move in the wind"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vYkA3cfXp5Q_30000_40000.npy",
+        "caption": "A vehicle engine idles then begins revving"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vZAqdHZ81yA_180000_190000.npy",
+        "caption": "A vehicle that is idling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vZAw4apG0Es_30000_40000.npy",
+        "caption": "People speaking with nearby ticking of a clock"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vZInq2uXuEo_510000_520000.npy",
+        "caption": "A man speaks and uses tools"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v_OQfEIq_PY_70000_80000.npy",
+        "caption": "A drill runs continuously"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vaX_J_G3638_130000_140000.npy",
+        "caption": "Horse walking while people talking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vb1fPSD_I4c_30000_40000.npy",
+        "caption": "Multiple people speak and children yell while water gurgles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vbZ-0lGPneg_30000_40000.npy",
+        "caption": "A man and woman speak as animals and birds squawk"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vbpKkWvfOu4_560000_570000.npy",
+        "caption": "A woman speaks and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vbr9mHKc8WM_40000_50000.npy",
+        "caption": "A low rumbling increasing into a loud buzz"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vcTWN0HCyoY_210000_220000.npy",
+        "caption": "Rain falls onto a surface and thunder roars"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vcmWS_mvti8_30000_40000.npy",
+        "caption": "Music plays, a young man speaks and gunshots ring out"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vdoxuJn9lTc_40000_50000.npy",
+        "caption": "A small laugh is followed by a loud burp and a female speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vf44CgrjT0A_20000_30000.npy",
+        "caption": "A machine cutting"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vf9xf3vMsGM_540000_550000.npy",
+        "caption": "A man speaks and sprays water onto a hard surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vfY_TJq7n_U_130000_140000.npy",
+        "caption": "Ducks quack and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vfrWmHgjkjM_10000_20000.npy",
+        "caption": "An insect flies around buzzing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vgi3GPTdFt4_50000_60000.npy",
+        "caption": "Music plays and birds chirp before a man speaks and a whistle blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vh30P49Po6s_30000_40000.npy",
+        "caption": "An animal chatters frantically, then quacks repeatedly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vhIcOufIwo4_30000_40000.npy",
+        "caption": "Several men talk and someone whistles followed by pigeons cooing and flapping wings"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vhJWZhe_qaE_0_10000.npy",
+        "caption": "A toilet flushes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vimzuGQvdcU_30000_40000.npy",
+        "caption": "Distant murmuring and hollering with white noise"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/viuTg1M-dqg_30000_40000.npy",
+        "caption": "A man speaks before another man talks over an engine sound"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vlJS7LN2XyM_30000_40000.npy",
+        "caption": "A clock ticks and rocks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vlS6YMeWAPo_40000_50000.npy",
+        "caption": "A goat bleats thereafter a birds chirps"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vmrxwuAMb2I_40000_50000.npy",
+        "caption": "A dog whimpers and a person inhales and exhales quickly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vms5XGTDVQc_220000_230000.npy",
+        "caption": "Continuous crumpling and crinkling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/voJh2gJxXhA_50000_60000.npy",
+        "caption": "Music playing followed by a frog chirping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vofpvUo6NAw_220000_230000.npy",
+        "caption": "A plastic package crumples and crinkles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vqZuVbG6-HI_130000_140000.npy",
+        "caption": "A helicopter propeller swings around loudly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vr8ZXjEBhMQ_150000_160000.npy",
+        "caption": "A low hiss in the distance followed by an engine rev"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vs65y4qmyBE_340000_350000.npy",
+        "caption": "A strong wind blows and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vuUVPzd2FXw_160000_170000.npy",
+        "caption": "A man speaks as dishes make sounds and water runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vvdb2UyJQrs_20000_30000.npy",
+        "caption": "A baby coos and laughs as a woman speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vveS8HT7Uog_100000_110000.npy",
+        "caption": "A saw cuts as an adult man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vwqaIHKxLvM_20000_30000.npy",
+        "caption": "Water splashes and flows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vx1gfpZnjAM_30000_40000.npy",
+        "caption": "Gentle music underscores a chirping bird"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vz8868znkVQ_60000_70000.npy",
+        "caption": "A goat bleats and children laugh and speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vzceMbkl_Wc_180000_190000.npy",
+        "caption": "Water runs into a container as several men speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vzxHnu-SFEw_80000_90000.npy",
+        "caption": "A woman speaks over light rubbing and scraping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w-4gHptFNuU_21000_31000.npy",
+        "caption": "A room and a room of an engine and then thumping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w0xsN8_X18Y_30000_40000.npy",
+        "caption": "Music plays as rain falls and men narrate"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w1ir-sZ3Im8_90000_100000.npy",
+        "caption": "Some liquid splashes nearby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w1mlz3Pe4fU_300000_310000.npy",
+        "caption": "Several birds tweet and chirp continuously"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2JXXIAdUdg_10000_20000.npy",
+        "caption": "Someone snores while sleeping and people talk in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2M4i1mklOA_30000_40000.npy",
+        "caption": "A clock rings and ticktocks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2bYrCVLT60_120000_130000.npy",
+        "caption": "Ducks quack and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2htir_si7g_100000_110000.npy",
+        "caption": "Loud musical whistling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w34HjHr6gAY_30000_40000.npy",
+        "caption": "A beep occurs multiple times then an ear-blasting sound occurs before a cartoon character speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w5W_5Kqtc8E_100000_110000.npy",
+        "caption": "Wind blows and water flows before people cheer"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w6RTHR6AeAg_40000_50000.npy",
+        "caption": "An owl whistles outside in the quiet followed by soft hooting"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w8hYTIDPWGI_270000_280000.npy",
+        "caption": "Distant speech and white noise followed by barking and laughter"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w8uLijTqtlU_70000_80000.npy",
+        "caption": "Wind blows causing wind noise into a microphone"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w9ejUrlz1GM_460000_470000.npy",
+        "caption": "Someone crumples plastic and speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w9lpbUn0hPc_30000_40000.npy",
+        "caption": "A man speaking followed by a man in the distance then a short burst of air spraying with wind blowing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wDVMhEdTiVw_30000_40000.npy",
+        "caption": "A snap occurs then water splashes and trickles from an object"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wEBlkGWVWwE_260000_270000.npy",
+        "caption": "As a baby talks in the distance, a woman speaks nearby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wGKgwOP3h30_30000_40000.npy",
+        "caption": "Birds vocalize and walk around"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wIJK3-5y0kA_30000_40000.npy",
+        "caption": "A baby scrapes on a surface and then shouts and screams gleefully"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wIvYjuR3nrg_9000_19000.npy",
+        "caption": "Birds tweet and pigeons vocalize as they walk around"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wNZ5thZM7XU_20000_30000.npy",
+        "caption": "Water rushes quickly, then gurgles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wP8ZKrlx3oA_40000_50000.npy",
+        "caption": "Rain falls on a hard surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wPz6QRAkEb4_60000_70000.npy",
+        "caption": "Birds chirp and wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wRBHTgrbiwg_50000_60000.npy",
+        "caption": "Birds tweet and insects chatter quietly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wRV8yMk886E_0_10000.npy",
+        "caption": "A man speaks followed by a loud burst"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wSV_hSdj0F0_10000_20000.npy",
+        "caption": "A horn is triggered and a door is closed followed by some steps and key jingling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wTideSjRFS0_30000_40000.npy",
+        "caption": "Sizzling together with female speech"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wTjoRj1se3U_390000_400000.npy",
+        "caption": "An electric engine works nearby while people talk far away"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wUub94P1uq0_10000_20000.npy",
+        "caption": "A young person laughs with delight"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wVRxa3BBHaQ_20000_30000.npy",
+        "caption": "People speak through a radio while it makes frequency noises"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wWVxe57200I_100000_110000.npy",
+        "caption": "A man speaks as birds vocalize"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w_AAkbZToh8_0_10000.npy",
+        "caption": "A person is burping loudly the speaks and laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wbHTKEJZyhc_20000_30000.npy",
+        "caption": "Water flows steadily as a woman speaks in the distance"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wdXV3Pv0jiY_11000_21000.npy",
+        "caption": "A machine whirring nearby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/weDbePuc-Xc_40000_50000.npy",
+        "caption": "Music plays as a man laughs and whimpers, insects buzz and a frog croaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wfHeoPDLMaM_30000_40000.npy",
+        "caption": "Ducks quack continuously"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wicG6b_Yyus_30000_40000.npy",
+        "caption": "Passengers talk on a moving bus"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wjsXBsc7M40_10000_20000.npy",
+        "caption": "Water drips in the background while a kid and baby laugh"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wl44ppID9ds_30000_40000.npy",
+        "caption": "Water splashes and gurgles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wmTdukran8Y_410000_420000.npy",
+        "caption": "A grown man speaks and a machine cranks and runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wnNNcxAPwGQ_0_10000.npy",
+        "caption": "People speak and a vehicle engine revs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wnpJndXuxLc_50000_60000.npy",
+        "caption": "A horn blows then a steam engine whistles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wob-3S4VjMs_140000_150000.npy",
+        "caption": "Keys clicking on a computer keyboard"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqADXCzngMw_340000_350000.npy",
+        "caption": "A vehicle engine revs and someone speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqN6IIHw3po_30000_40000.npy",
+        "caption": "A man speaks as rain falls onto a hard surface and objects move around"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqTCwqVRDlk_80000_90000.npy",
+        "caption": "A gun is shot several times"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqUmIEzuNz4_30000_40000.npy",
+        "caption": "Squeaking followed by rustling and then another squeak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqZ135_Ssz0_60000_70000.npy",
+        "caption": "A man and woman speak outside as the wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqugJOvBkhY_40000_50000.npy",
+        "caption": "A horn sounds and babies laugh"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wrAy0C6AZ3Y_150000_160000.npy",
+        "caption": "Birds chirp as a man narrates while a group of people speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wsHBIgzs9Fs_50000_60000.npy",
+        "caption": "Some motorcycle moves then a horn is triggered and motorcycles are accelerates and a man shouts"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wtDqrBygTcU_30000_40000.npy",
+        "caption": "A man speaks as a boat engine runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wudZTNBtVqc_60000_70000.npy",
+        "caption": "A vehicle accelerates and moves away"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wulOEFdECWs_10000_20000.npy",
+        "caption": "Rain falls onto a hard surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wvKpEYswXO0_150000_160000.npy",
+        "caption": "A woman speaks and taps on a counter before turning a water tap on"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wvmLR1nQ1qs_50000_60000.npy",
+        "caption": "A train approaches and the train horn sounds"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wwyfGO2J__4_90000_100000.npy",
+        "caption": "An audience gives applause then people speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wy1eKjR7KC0_30000_40000.npy",
+        "caption": "Multiple people speak and a siren sounds"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wyjQhK3XMFQ_180000_190000.npy",
+        "caption": "Water flows and splashes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wyllXV6PjKo_30000_40000.npy",
+        "caption": "A woman and man speak then an infant begins to cry"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wz7N8YRy74I_30000_40000.npy",
+        "caption": "A man speak while outside, the wind blows lightly and birds chirp in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wzXPRI7eXOM_50000_60000.npy",
+        "caption": "Several motors roar as a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wz_tCSUxOf8_130000_140000.npy",
+        "caption": "Many voices yelling then applause"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x-PeY8Yb8M4_300000_310000.npy",
+        "caption": "A stream of water flows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x-Yx0rqr1vY_30000_40000.npy",
+        "caption": "Frogs croak as a woman and child speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x-gIWB__rIE_210000_220000.npy",
+        "caption": "A man speaks and uses a grinder"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x4a9YGIw4ok_120000_130000.npy",
+        "caption": "Water burbles and metal squeaks as the water stops"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x4dZyf9Gbj0_130000_140000.npy",
+        "caption": "A woman sneezes and then speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x5cuQjOdM3E_30000_40000.npy",
+        "caption": "A cat meowing, a young girl speaking and meowing after the cat."
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x5eIC7S0fbg_60000_70000.npy",
+        "caption": "A man speaks then uses a drill"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x6iCUDmRpKQ_38000_48000.npy",
+        "caption": "A crowd applause"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x6ijhqRY38s_250000_260000.npy",
+        "caption": "A person talks while dishes clank together"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x9J_ovgqUcs_500000_510000.npy",
+        "caption": "A man talks while someone briefly types a keyboard"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xBxDz0CFVn0_30000_40000.npy",
+        "caption": "Wind blows while people talk and waves crash against a shoreline"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xC8kbrKJmco_0_10000.npy",
+        "caption": "White noise and screaming"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xDsO5LiaaAY_90000_100000.npy",
+        "caption": "A small engine spools up slowly then decelerates briefly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xERFUeZONz8_0_10000.npy",
+        "caption": "A siren wails, and then interrupted, and wails again"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xIS6JwaGxuk_10000_20000.npy",
+        "caption": "A dog barks and growls before a man and woman speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xJSVJj-v8EE_10000_20000.npy",
+        "caption": "A small motor run at two different pitches"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xKB8O8LTs6s_70000_80000.npy",
+        "caption": "Adventurous music plays as a woman speaks and then multiple gunshots follow"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xL_wHe825Zs_18000_28000.npy",
+        "caption": "A woman cheers, laughs and claps as a baby cries and whines"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xM4joTqDVp4_160000_170000.npy",
+        "caption": "Birds chirp and a train approaches"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xMXvkIcaG0Y_30000_40000.npy",
+        "caption": "A motor revs loudly and then decreases"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xNMovAf3o50_0_10000.npy",
+        "caption": "A heavy rain falls followed by a music being played"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xO-Q2BlIIPU_30000_40000.npy",
+        "caption": "A man speaks in a quiet space"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xOZfdgAgJ9o_40000_50000.npy",
+        "caption": "A woman speaks, followed by another woman who cries and speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xPiVrZL4qek_10000_20000.npy",
+        "caption": "Water drains and sputters"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xSKJGCItUWE_10000_20000.npy",
+        "caption": "Over a running engine, an excited child voice yells out"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xSN_cBFt-PI_30000_40000.npy",
+        "caption": "A clock chimes, ticks, then chimes again"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xV7Mg1QucSc_14000_24000.npy",
+        "caption": "Constant static as a clock plays a tune and ticktocks then a man says something and laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xVzetIIzS9c_30000_40000.npy",
+        "caption": "An emergency vehicle siren sounds quickly then a motorcycle accelerates"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xX2OnECANVI_70000_80000.npy",
+        "caption": "An adult male speaks as a small motor runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xYoIXskAdKg_20000_30000.npy",
+        "caption": "Vehicle engine revving"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xZepNM9qcRA_30000_40000.npy",
+        "caption": "A motorcycle engine is revving while a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x_l2PIWyXaM_160000_170000.npy",
+        "caption": "A man and a woman talk as birds chirp in the background."
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xeOp_6mV1DY_60000_70000.npy",
+        "caption": "Ducks quack loudly and repeatedly while men speak and a dog barks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xfaoyyzw2WU_180000_190000.npy",
+        "caption": "An airplane engine works nearby while a man talks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xfudFO976zE_0_10000.npy",
+        "caption": "Animals bleat and baa and metal bangs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xhmRY9yhC7c_20000_30000.npy",
+        "caption": "An infant cries while a person laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xjhAnI2q6hM_6000_16000.npy",
+        "caption": "A motor runs roughly and a person cheers"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xjvTpk2Zpr8_70000_80000.npy",
+        "caption": "An aircraft engine gets louder as it approaches while wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xmdGaCbvhFc_140000_150000.npy",
+        "caption": "A man speaks as a water faucet runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xmiUIOhtZyQ_60000_70000.npy",
+        "caption": "A person burps"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xtWeJ56-U-g_20000_30000.npy",
+        "caption": "A computer quietly beeps"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xvDdE3zNf8Y_120000_130000.npy",
+        "caption": "A woman speaks with some light crinkling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xw5cmiqbaUg_160000_170000.npy",
+        "caption": "A motor runs and a baby whines and cries for a moment"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xx3yKzrSOBI_40000_50000.npy",
+        "caption": "A man speaks while emergency vehicle sirens sound and cars drive quickly along a road"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xyL9F5VrjkE_20000_30000.npy",
+        "caption": "A truck engine runs while wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xyx6eNVEYRY_380000_390000.npy",
+        "caption": "An aircraft engine runs while a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xzKKf9bKNUo_10000_20000.npy",
+        "caption": "A person is snoring while sleeping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y1saVTXsKwc_80000_90000.npy",
+        "caption": "A dog growls lowly with a man speaking in the middle"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y2ZBGpgbhHM_30000_40000.npy",
+        "caption": "A bird chirps as a car drives by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y2bVZ7rz-5M_280000_290000.npy",
+        "caption": "Noisy traffic goes by on a busy road then an emergency siren on a fire truck and an ambulance sound"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y4MY9mp8-TA_30000_40000.npy",
+        "caption": "A helicopter flies overhead"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y4NpJekTMT8_80000_90000.npy",
+        "caption": "A series of tones play and something screams in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y4tPJXBKDig_20000_30000.npy",
+        "caption": "A young girl speaks then a person sneezes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y5WII6cTH7k_40000_50000.npy",
+        "caption": "A piece of machinery vibrates loudly as it works"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y636gklDioE_20000_30000.npy",
+        "caption": "Loud repetitive burping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y682ml90jGw_11000_21000.npy",
+        "caption": "Beeps occur continuously"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y8WEcpOlT3I_40000_50000.npy",
+        "caption": "A man speaks while wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y8dSeubCN_I_4000_14000.npy",
+        "caption": "An engine revs followed by people speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yBksF4L5Ics_30000_40000.npy",
+        "caption": "A woman speaks and a child whines"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yDoT73BWsdA_10000_20000.npy",
+        "caption": "A car zooms by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yFB25fqfU8I_300000_310000.npy",
+        "caption": "Waves crash and people laugh"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yHeVV-xeOxQ_130000_140000.npy",
+        "caption": "A woman speaks and scraps an object against metal"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yHtbLI6kxAc_30000_40000.npy",
+        "caption": "Pigeons coo while a baby speaks in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yI-KvObbDoY_260000_270000.npy",
+        "caption": "Wind gusts intermittently as metal squeaks and paper rustles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yJ0T_ePmaOo_390000_400000.npy",
+        "caption": "A male talking followed by a scraping of two objects against each other"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yKKOHg5xlPE_20000_30000.npy",
+        "caption": "A man speaks as a metal gate closes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yLCORCnd35Q_0_10000.npy",
+        "caption": "An airplane engine runs loudly as men speak"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yLy-WycbVVE_30000_40000.npy",
+        "caption": "Horns honk discordantly as numerous people talk"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yNPcyWWmbUk_40000_50000.npy",
+        "caption": "A man is sawing a hard object then speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yNtRmrn0io8_210000_220000.npy",
+        "caption": "Rain falling while thunder roars in the distance as water lightly trickles and wind blows into a microphone"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yPUYU6t3rwo_370000_380000.npy",
+        "caption": "Several insects flies far away while birds tweet"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yRcOezOVG_s_10000_20000.npy",
+        "caption": "A motor runs as a man speaks and a door slams"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yRx9txMcBl0_40000_50000.npy",
+        "caption": "A vehicle accelerates then tires squeal and later accelerates again"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yT5WfYMRr-U_30000_40000.npy",
+        "caption": "A man speaks nearby as machinery hums in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yTMbYkZ-Vkc_0_10000.npy",
+        "caption": "A vehicle engine revs then accelerates"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yUsCyVRXMoY_20000_30000.npy",
+        "caption": "Hissing and vibrating followed by a loud click"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yVPZ2MNWpms_0_10000.npy",
+        "caption": "A vehicle passes by as an aircraft engine runs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yVVP8XvWJTo_260000_270000.npy",
+        "caption": "A female voice briefly yells as several children start talking and yelling all around"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yVumC9TGknc_30000_40000.npy",
+        "caption": "A jet engine sounds as a ticktock occurs and beeping takes place"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yW6FWLSLkx4_40000_50000.npy",
+        "caption": "A girl speaks narrating a dialog"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yXrw3GRMZag_40000_50000.npy",
+        "caption": "Some rustling followed by a flushing toilet"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yYEVLuqEytU_40000_50000.npy",
+        "caption": "Birds sing far away as an animal fidgets and grunts"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yYJksgsxx5U_30000_40000.npy",
+        "caption": "A woman speaks while music plays in the background as she uses cutlery"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZZFDWkYJYs_16000_26000.npy",
+        "caption": "Vehicles move and sirens are triggered getting closer"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZmhM1HcsyE_4000_14000.npy",
+        "caption": "Waves crashing as wind blows and an engine roars"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZp6xizR0yU_30000_40000.npy",
+        "caption": "An animal bleats and shuffles on soft ground"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZrFNS7GFBQ_30000_40000.npy",
+        "caption": "A bird vocalizes repeatedly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yajyRTUQk3U_400000_410000.npy",
+        "caption": "A woman speaks while food is frying"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yaln9y8I7ms_230000_240000.npy",
+        "caption": "Clicking followed by a flushing toilet and a child speaking briefly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ydc0oG9pC7k_0_10000.npy",
+        "caption": "Continuous rain and thunder"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yeFvk9x0wWI_30000_40000.npy",
+        "caption": "Lowing wind followed by a loud click and bird chirping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yfdjbS0FjI0_24000_34000.npy",
+        "caption": "A vehicle traverses a bump and distant engines run"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yhQ2Lg-7qDY_130000_140000.npy",
+        "caption": "Food is frying while an adult speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yiUDYRSJpJI_30000_40000.npy",
+        "caption": "Rapid fire loud booming gunshots"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yks4cLgIDMc_170000_180000.npy",
+        "caption": "Several adults speaks as children yell and shout"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ylpYOorfH4o_410000_420000.npy",
+        "caption": "A vehicle engine idles as a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yswmmRZFItk_0_10000.npy",
+        "caption": "A frog croaks and makes noises"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yvpR-9AaJyU_160000_170000.npy",
+        "caption": "A helicopter engine noise gets closer than passes by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z4VCMzobZbI_100000_110000.npy",
+        "caption": "Food begins to sizzle as a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z4uELRI6p08_40000_50000.npy",
+        "caption": "Laughing followed by a short groan then more laughing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z5iUE5h0EPs_30000_40000.npy",
+        "caption": "Rustling with people speaking and a goat bleating"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z9-3K1PFMjw_30000_40000.npy",
+        "caption": "A man speaks while a telephone operator speaks and the phone beeps"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zALy31PjDl0_21000_31000.npy",
+        "caption": "A vehicle horn blows and wind blows"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zAYW_RjbHHI_90000_100000.npy",
+        "caption": "A race car drives, slows down as a person speaks in the background and accelerates again"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zCrAfDfv6-A_30000_40000.npy",
+        "caption": "A person whistles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zF8yoL0rkbI_30000_40000.npy",
+        "caption": "Humming of an engine with wind blowing hard and a man speaking briefly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zF_jIWfSD-4_410000_420000.npy",
+        "caption": "An engine works while people talk."
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zNRCh_LjqcU_220000_230000.npy",
+        "caption": "Food begins to sizzle in a frying pan"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zO-LSSY92ZM_30000_40000.npy",
+        "caption": "Someone sprays liquid onto a hard surface"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zOZleIRqZm4_80000_90000.npy",
+        "caption": "A man speaks as the ground is rustling beneath his feet"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPJVrNMPt0A_550000_560000.npy",
+        "caption": "A grown man speaks and a machine runs as another man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPKXXJn5r3U_30000_40000.npy",
+        "caption": "Rain drops falling against a hard surface as thunder is heard in the distance"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPX9o1uD_iI_40000_50000.npy",
+        "caption": "A whistle blows as a running motor nears"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPpG3RD8lSs_20000_30000.npy",
+        "caption": "Papers crumbs shortly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zRNwZZQwDIU_60000_70000.npy",
+        "caption": "A man speaks as food sizzles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zTLVJCo4WEE_30000_40000.npy",
+        "caption": "A man speaks and another person speaks as metal clicks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zU-oKUEckKo_60000_70000.npy",
+        "caption": "A horn blares and metal squeals"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zVacuqSb4LI_30000_40000.npy",
+        "caption": "A train horn whistles as it passes by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zY3icUyMdh8_20000_30000.npy",
+        "caption": "A dog barks as a vehicle idles then accelerates"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zaIbETo-WtU_440000_450000.npy",
+        "caption": "The wind is blowing, birds are chirping, many flying insects are buzzing, and random whooshing and thumping occur"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zcDwZ6W7E3E_180000_190000.npy",
+        "caption": "A vehicle passing while a man talks by followed by several motorcycles passing by as another man talks in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zd93ITwIf_g_70000_80000.npy",
+        "caption": "A man speaks as objects rattle and move"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zdYdyF9-m8U_7000_17000.npy",
+        "caption": "Ocean waves crashing as water trickles and splashes while wind blows into a microphone alongside seagulls squawking in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zfvPRf3ch_Y_290000_300000.npy",
+        "caption": "A drill fans and a man speaks briefly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zg0X6BnhOLQ_410000_420000.npy",
+        "caption": "An animal makes a squawking bleat"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zgUgkpk78xU_70000_80000.npy",
+        "caption": "A horn honks followed by a bell tinging"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zhx6hoYrHeI_160000_170000.npy",
+        "caption": "A motorbike engine revving several times followed by tires squeaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ziUT9IFTkjg_10000_20000.npy",
+        "caption": "Chimes ring very lightly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zj2R0XoFr5k_50000_60000.npy",
+        "caption": "An airplane passes overhead with a woman speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zjTG0gaGCUI_80000_90000.npy",
+        "caption": "The wind roars as an aircraft moves down a runway"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zk-xJGQU8-4_130000_140000.npy",
+        "caption": "A man and woman are speaking while grease is popping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zkKdxzNC97Y_27000_37000.npy",
+        "caption": "An object creaks and slams"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zl3OnWjr3Y4_140000_150000.npy",
+        "caption": "A man speaks while typing on a keyboard"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zl9Dqx-j7q4_6000_16000.npy",
+        "caption": "Motors run harshly as a person laughs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zliInBdC98Y_30000_40000.npy",
+        "caption": "A baby cries and screams followed by a woman talking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zn196JcTlq0_30000_40000.npy",
+        "caption": "A vehicle engine begins revving after idling"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zoKp_laniT8_10000_20000.npy",
+        "caption": "A boat passes by on the water and a man speaks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zofjfKhqLk8_10000_20000.npy",
+        "caption": "A powered saw runs through some wood"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zsLxS-uLJTw_20000_30000.npy",
+        "caption": "A train horn sounds loudly and clickety-clacks on the tracks"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ztQ79sWWC34_60000_70000.npy",
+        "caption": "A child is speaking, shuffling and faint scraping occur, and a glass dish thumps"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zuua6-5goWw_30000_40000.npy",
+        "caption": "Birds twitter and chirp as a man speak quietly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zvABdOhz9fE_30000_40000.npy",
+        "caption": "A man speaking with some clanking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zvmXKyAFq80_10000_20000.npy",
+        "caption": "A vehicle is revving and grooming"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zwOBqeFTgiU_30000_40000.npy",
+        "caption": "Two babies cry"
+    }
+]
