@@ -433,7 +433,15 @@ def main():
     )
 
     dataset = load_dataset('json', data_files=[
-        "/home/v-yuancwang/AUDIT_v2/medata_infos/ac_train.json"
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/ac_train.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/ac_val.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/ac_test.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/audioset_sl.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/bbc.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/fsd_10s.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/fsd50k_10s.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/soundbible.json",
+        "/home/v-yuancwang/AUDIT_v2/medata_infos/vggsound.json"
         ])
     dataset = dataset["train"]
     image_column = "mel"
