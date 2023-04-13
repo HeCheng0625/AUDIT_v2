@@ -580,8 +580,8 @@ def main():
                 vae_loss = 0.5 * F.mse_loss(vae_output.float(), target.float(), reduction="mean") + \
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
-                if global_step > 600:
-                    vae_loss = vae_loss - 0.1 * (gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device))
+                if global_step > 1000:
+                    vae_loss = vae_loss - 0.1*(gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device))
 
                 # # Gather the losses across all processes for logging (if we use distributed training).
                 # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
@@ -597,7 +597,7 @@ def main():
 
             with accelerator.accumulate(discriminator):
 
-                if global_step <= 600:
+                if global_step <= 1000:
                     gan_loss = vae_loss
                 else:
                     target = batch["pixel_values"]

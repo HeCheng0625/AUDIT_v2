@@ -11,7 +11,7 @@ accelerate launch train_vae_gan.py \
   --gradient_checkpointing \
   --max_train_steps=500000 \
   --checkpointing_steps=5000 \
-  --learning_rate=8e-5 \
+  --learning_rate=7.8e-5 \
   --max_grad_norm=1 \
   --lr_scheduler="constant" \
-  --output_dir="/blob/v-yuancwang/AUDITPLUS/VAE_GAN"
+  --output_dir="/blob/v-yuancwang/AUDITPLUS/VAEGAN"
