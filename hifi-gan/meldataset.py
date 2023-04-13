@@ -4,6 +4,8 @@ import random
 import torch
 import torch.utils.data
 import numpy as np
+import librosa
+import json
 from librosa.util import normalize
 from scipy.io.wavfile import read
 from librosa.filters import mel as librosa_mel_fn
@@ -71,16 +73,36 @@ def mel_spectrogram(y, n_fft, num_mels, sampling_rate, hop_size, win_size, fmin,
 
     return spec
 
-
-def get_dataset_filelist(a):
-    with open(a.input_training_file, 'r', encoding='utf-8') as fi:
-        training_files = [os.path.join(a.input_wavs_dir, x.split('|')[0] + '.wav')
-                          for x in fi.read().split('\n') if len(x) > 0]
-
-    with open(a.input_validation_file, 'r', encoding='utf-8') as fi:
-        validation_files = [os.path.join(a.input_wavs_dir, x.split('|')[0] + '.wav')
-                            for x in fi.read().split('\n') if len(x) > 0]
+def get_dataset_filelist_direct():
+    training_files = []
+    validation_files = []
+    
+    for json_file in ["ac_test.json", "ac_train.json", "audioset_sl.json",
+                        "bbc.json", "fsd_2s.json", "fsd_5s.json", "fsd_10s.json",
+                        "fsd50k_2s.json", "fsd50k_5s.json", "fsd50k_10s.json",
+                        "soundbible.json", "vggsound.json"]:
+        with open(os.path.join("/home/v-yuancwang/AUDIT_v2/medata_infos", json_file), "r") as f:
+            json_lists = json.load(f)
+        for info in json_lists:
+            training_files.append(info["mel"].replace("/mel/", "/wav/").replace(".npy", ".wav"))
+    
+    for json_file in ["ac_val.json"]:
+        with open(os.path.join("/home/v-yuancwang/AUDIT_v2/medata_infos", json_file), "r") as f:
+            json_lists = json.load(f)
+        for info in json_lists:
+            validation_files.append(info["mel"].replace("/mel/", "/wav/").replace(".npy", ".wav"))
+        
     return training_files, validation_files
+
+# def get_dataset_filelist(a):
+#     with open(a.input_training_file, 'r', encoding='utf-8') as fi:
+#         training_files = [os.path.join(a.input_wavs_dir, x.split('|')[0] + '.wav')
+#                           for x in fi.read().split('\n') if len(x) > 0]
+
+#     with open(a.input_validation_file, 'r', encoding='utf-8') as fi:
+#         validation_files = [os.path.join(a.input_wavs_dir, x.split('|')[0] + '.wav')
+#                             for x in fi.read().split('\n') if len(x) > 0]
+#     return training_files, validation_files
 
 
 class MelDataset(torch.utils.data.Dataset):
@@ -111,8 +133,9 @@ class MelDataset(torch.utils.data.Dataset):
     def __getitem__(self, index):
         filename = self.audio_files[index]
         if self._cache_ref_count == 0:
-            audio, sampling_rate = load_wav(filename)
-            audio = audio / MAX_WAV_VALUE
+            # audio, sampling_rate = load_wav(filename)
+            # audio = audio / MAX_WAV_VALUE
+            audio, sampling_rate = librosa.load(filename, sr=16000)
             if not self.fine_tuning:
                 audio = normalize(audio) * 0.95
             self.cached_wav = audio

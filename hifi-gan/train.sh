@@ -1,9 +1,9 @@
-python /home/v-yuancwang/hifi-gan/train.py \
---input_wavs_dir="/blob/v-yuancwang/audio_editing_data/audioset96/wav" \
---input_training_file="/home/v-yuancwang/hifi-gan/audioset96_train.txt" \
---input_validation_file="/home/v-yuancwang/hifi-gan/audioset96_val.txt" \
---checkpoint_path="/blob/v-yuancwang/hifigan_cp" \
---config="/home/v-yuancwang/hifi-gan/config_ours.json" \
+python /home/v-yuancwang/AUDIT_v2/hifi-gan/train.py \
+--input_wavs_dir="" \
+--input_training_file="" \
+--input_validation_file="" \
+--checkpoint_path="/blob/v-yuancwang/AUDITPLUS/HIFIGAN" \
+--config="/home/v-yuancwang/AUDIT_v2/hifi-gan/config_ours.json" \
 --training_epochs=500 \
 --stdout_interval=5 \
 --checkpoint_interval=5000 \
