@@ -580,8 +580,8 @@ def main():
                 vae_loss = 0.5 * F.mse_loss(vae_output.float(), target.float(), reduction="mean") + \
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
-                if global_step > 0:
-                    vae_loss = vae_loss - 0.1*(gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device))
+                # if global_step > 0:
+                vae_total_loss = vae_loss - 0.1*(gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device))
                     # vae_loss = vae_loss - 0.1*(gan_loss_fake(discriminator(vae_output), vae_output.device))
                 
                 # # Gather the losses across all processes for logging (if we use distributed training).
@@ -589,7 +589,7 @@ def main():
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps
 
                 # Backpropagate
-                accelerator.backward(vae_loss)
+                accelerator.backward(vae_total_loss)
                 if accelerator.sync_gradients:
                     accelerator.clip_grad_norm_(vae.parameters(), args.max_grad_norm)
                 optimizer.step()
