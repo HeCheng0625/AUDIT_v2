@@ -380,8 +380,8 @@ def main():
     #     revision=args.revision,
     # )
 
-    vae = AutoencoderKL.from_config(
-        "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-40000/vae/config.json",
+    vae = AutoencoderKL.from_pretrained(
+        "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-50000/vae",
         subfolder="vae"
     )
 
@@ -580,7 +580,7 @@ def main():
                 vae_loss = 0.5 * F.mse_loss(vae_output.float(), target.float(), reduction="mean") + \
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
-                if global_step > 1000:
+                if global_step > 0:
                     vae_loss = vae_loss - 0.1*(gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device))
                     # vae_loss = vae_loss - 0.1*(gan_loss_fake(discriminator(vae_output), vae_output.device))
                 
@@ -598,7 +598,7 @@ def main():
 
             with accelerator.accumulate(discriminator):
 
-                if global_step <= 1000:
+                if global_step <= 0:
                     gan_loss = vae_loss
                 else:
                     target = batch["pixel_values"]
