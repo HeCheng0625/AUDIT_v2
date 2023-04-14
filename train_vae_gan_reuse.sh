@@ -13,5 +13,6 @@ accelerate launch train_vae_gan_reuse.py \
   --checkpointing_steps=1000 \
   --learning_rate=2e-5 \
   --max_grad_norm=1 \
+  --lr_warmup_steps=0 \
   --lr_scheduler="constant" \
   --output_dir="/blob/v-yuancwang/AUDITPLUS/VAEGAN_3"
