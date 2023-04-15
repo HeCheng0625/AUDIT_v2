@@ -39,7 +39,7 @@ from diffusers.optimization import get_scheduler
 from diffusers.utils import check_min_version, is_wandb_available
 from diffusers.utils.import_utils import is_xformers_available
 
-from utils import Discriminator, gan_loss_fake, gan_loss_real
+from utils import Discriminator, gan_loss_fake, gan_loss_real, gan_loss_d, gan_loss_g
 
 logger = get_logger(__name__)
 
@@ -580,8 +580,8 @@ def main():
                 vae_loss = 0.5 * F.mse_loss(vae_output.float(), target.float(), reduction="mean") + \
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
-                if global_step >= 0:
-                    vae_total_loss = vae_loss - 0.1 * gan_loss_fake(discriminator(vae_output), vae_output.device)
+                if global_step >= 20000:
+                    vae_total_loss = vae_loss + 0.2 * gan_loss_g(discriminator(vae_output), vae_output.device)
                 else:
                     vae_total_loss = vae_loss
                 # # Gather the losses across all processes for logging (if we use distributed training).
@@ -603,19 +603,21 @@ def main():
                 z = posterior.sample()
                 vae_output = vae.module.decode(z).sample
 
-                gan_loss = gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device)
+                # gan_loss = gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device)
+                gan_loss = 0.5 * gan_loss_d(discriminator(target), discriminator(vae_output), target.device)
 
                 # # Gather the losses across all processes for logging (if we use distributed training).
                 # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps
 
                 # Backpropagate
-                accelerator.backward(gan_loss)
-                if accelerator.sync_gradients:
-                    accelerator.clip_grad_norm_(discriminator.parameters(), args.max_grad_norm)
-                optimizer_gan.step()
-                lr_scheduler_gan.step()
-                optimizer_gan.zero_grad()
+                if global_step >= 20000:
+                    accelerator.backward(gan_loss)
+                    if accelerator.sync_gradients:
+                        accelerator.clip_grad_norm_(discriminator.parameters(), args.max_grad_norm)
+                    optimizer_gan.step()
+                    lr_scheduler_gan.step()
+                    optimizer_gan.zero_grad()
 
             # Checks if the accelerator has performed an optimization step behind the scenes
             if accelerator.sync_gradients:

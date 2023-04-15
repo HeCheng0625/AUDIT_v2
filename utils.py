@@ -29,7 +29,7 @@ class Discriminator(nn.Module):
         ])
 
         self.lin1 = nn.Conv2d(128, 64, 1)
-        self.lin2 = nn.Conv2d(64, 2, 1)
+        self.lin2 = nn.Conv2d(64, 1, 1)
 
     def forward(self, x):
         # x: (b, 1, 80, 624) -> (b, 2, 5, 39)
@@ -48,9 +48,16 @@ class Discriminator(nn.Module):
         return x
 
 def gan_loss_real(x_real, device):
-    loss_real = F.cross_entropy(x_real, torch.ones((x_real.shape[0], x_real.shape[-2], x_real.shape[-1])).to(torch.int64).to(device))
+    loss_real = F.binary_cross_entropy_with_logits(x_real, 0.9 * torch.ones(x_real.shape).to(device))
     return loss_real
 
 def gan_loss_fake(x_fake, device):
-    loss_fake = F.cross_entropy(x_fake, torch.zeros((x_fake.shape[0], x_fake.shape[-2], x_fake.shape[-1])).to(torch.int64).to(device))
+    loss_fake = F.binary_cross_entropy_with_logits(x_fake, torch.zeros(x_fake.shape).to(device))
     return loss_fake
+
+
+def gan_loss_d(x_real, x_fake, device):
+    return F.mse_loss(x_real, torch.ones(x_real.shape).to(device)) + F.mse_loss(x_fake, torch.zeros(x_fake.shape).to(device))
+
+def gan_loss_g(x_fake, device):
+    return F.mse_loss(x_fake, torch.ones(x_fake.shape).to(device))
