@@ -585,8 +585,10 @@ def main():
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
                 gan_g_loss = gan_loss_g(discriminator(vae_output), vae_output.device)
-                vae_total_loss = vae_loss + 0.5 * gan_g_loss
-
+                if gan_g_loss > 50:
+                    vae_total_loss = vae_loss + gan_g_loss
+                else:
+                    vae_total_loss = vae_loss
                 # # Gather the losses across all processes for logging (if we use distributed training).
                 # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps

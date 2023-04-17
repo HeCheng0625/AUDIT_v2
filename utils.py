@@ -48,7 +48,7 @@ class Discriminator(nn.Module):
         return x
 
 def gan_loss_real(x_real, device):
-    loss_real = F.binary_cross_entropy_with_logits(x_real, 0.9 * torch.ones(x_real.shape).to(device))
+    loss_real = F.binary_cross_entropy_with_logits(x_real, 0.95 * torch.ones(x_real.shape).to(device))
     return loss_real
 
 def gan_loss_fake(x_fake, device):
