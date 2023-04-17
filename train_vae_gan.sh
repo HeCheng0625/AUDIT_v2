@@ -11,7 +11,7 @@ accelerate launch train_vae_gan.py \
   --gradient_checkpointing \
   --max_train_steps=500000 \
   --checkpointing_steps=1000 \
-  --learning_rate=7.5e-5 \
+  --learning_rate=5e-5 \
   --max_grad_norm=1 \
   --lr_warmup_steps=0 \
   --lr_scheduler="constant" \

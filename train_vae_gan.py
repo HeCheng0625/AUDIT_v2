@@ -430,7 +430,7 @@ def main():
     
     optimizer_gan = optimizer_cls(
         discriminator.parameters(),
-        lr=args.learning_rate,
+        lr=args.learning_rate*1.5,
         betas=(args.adam_beta1, args.adam_beta2),
         weight_decay=args.adam_weight_decay,
         eps=args.adam_epsilon,
@@ -585,7 +585,7 @@ def main():
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
                 gan_g_loss = gan_loss_g(discriminator(vae_output), vae_output.device)
-                if gan_g_loss > 50:
+                if global_step > 200:
                     vae_total_loss = vae_loss + gan_g_loss
                 else:
                     vae_total_loss = vae_loss
@@ -594,12 +594,13 @@ def main():
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps
 
                 # Backpropagate
-                accelerator.backward(vae_total_loss)
-                if accelerator.sync_gradients:
-                    accelerator.clip_grad_norm_(vae.parameters(), args.max_grad_norm)
-                optimizer.step()
-                lr_scheduler.step()
-                optimizer.zero_grad()
+                if global_step > 200:
+                    accelerator.backward(vae_total_loss)
+                    if accelerator.sync_gradients:
+                        accelerator.clip_grad_norm_(vae.parameters(), args.max_grad_norm)
+                    optimizer.step()
+                    lr_scheduler.step()
+                    optimizer.zero_grad()
 
             with accelerator.accumulate(discriminator):
 
@@ -608,7 +609,6 @@ def main():
                 z = posterior.sample()
                 vae_output = vae.module.decode(z).sample
 
-                # gan_loss = gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device)
                 gan_loss = 0.5 * gan_loss_d(discriminator(target), discriminator(vae_output), target.device)
 
                 # # Gather the losses across all processes for logging (if we use distributed training).
