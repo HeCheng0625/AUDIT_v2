@@ -380,8 +380,12 @@ def main():
     #     revision=args.revision,
     # )
 
-    vae = AutoencoderKL.from_config(
-        "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-40000/vae/config.json",
+    # vae = AutoencoderKL.from_config(
+    #     "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-40000/vae/config.json",
+    #     subfolder="vae"
+    # )
+    vae = AutoencoderKL.from_pretrained(
+        "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-50000",
         subfolder="vae"
     )
 
@@ -580,10 +584,9 @@ def main():
                 vae_loss = 0.5 * F.mse_loss(vae_output.float(), target.float(), reduction="mean") + \
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
-                if global_step >= 20000:
-                    vae_total_loss = vae_loss + 0.2 * gan_loss_g(discriminator(vae_output), vae_output.device)
-                else:
-                    vae_total_loss = vae_loss
+                gan_g_loss = gan_loss_g(discriminator(vae_output), vae_output.device)
+                vae_total_loss = vae_loss + 0.5 * gan_g_loss
+
                 # # Gather the losses across all processes for logging (if we use distributed training).
                 # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps
@@ -611,13 +614,12 @@ def main():
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps
 
                 # Backpropagate
-                if global_step >= 20000:
-                    accelerator.backward(gan_loss)
-                    if accelerator.sync_gradients:
-                        accelerator.clip_grad_norm_(discriminator.parameters(), args.max_grad_norm)
-                    optimizer_gan.step()
-                    lr_scheduler_gan.step()
-                    optimizer_gan.zero_grad()
+                accelerator.backward(gan_loss)
+                if accelerator.sync_gradients:
+                    accelerator.clip_grad_norm_(discriminator.parameters(), args.max_grad_norm)
+                optimizer_gan.step()
+                lr_scheduler_gan.step()
+                optimizer_gan.zero_grad()
 
             # Checks if the accelerator has performed an optimization step behind the scenes
             if accelerator.sync_gradients:
@@ -643,7 +645,8 @@ def main():
                         save_vae = save_vae[0]
                         save_vae.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
 
-            logs = {"vae_l": vae_loss.detach().item(), "gan_l": gan_loss.detach().item()}
+            logs = {"vae_l": vae_loss.detach().item(), "gan_l_d": gan_loss.detach().item(),
+                    "gan_l_g": gan_g_loss.detach().item()}
             progress_bar.set_postfix(**logs)
             accelerator.log(logs, step=global_step)
 
