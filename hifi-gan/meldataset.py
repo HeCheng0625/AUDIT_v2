@@ -163,8 +163,9 @@ class MelDataset(torch.utils.data.Dataset):
                                   self.sampling_rate, self.hop_size, self.win_size, self.fmin, self.fmax,
                                   center=False)
         else:
-            mel = np.load(
-                os.path.join(self.base_mels_path, os.path.splitext(os.path.split(filename)[-1])[0] + '.npy'))
+            # mel = np.load(
+            #     os.path.join(self.base_mels_path, os.path.splitext(os.path.split(filename)[-1])[0] + '.npy'))
+            mel = np.load(filename.replace("/wav/","/mel/").replace(".wav", ".npy"))
             if len(mel.shape) == 2:
                 mel = np.expand_dims(mel, 0)
             mel = torch.from_numpy(mel)
