@@ -384,7 +384,7 @@ def main():
     #     "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-40000/vae/config.json",
     #     subfolder="vae"
     # )
-    vae = AutoencoderKL.from_pretrained(
+    vae = AutoencoderKL.from_config(
         "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-50000",
         subfolder="vae"
     )
@@ -584,23 +584,23 @@ def main():
                 vae_loss = 0.5 * F.mse_loss(vae_output.float(), target.float(), reduction="mean") + \
                     0.5 * F.l1_loss(vae_output.float(), target.float(), reduction="mean") + \
                     1e-6 * torch.mean(posterior.kl())
-                gan_g_loss = gan_loss_g(discriminator(vae_output), vae_output.device)
-                if global_step > 200:
-                    vae_total_loss = vae_loss + gan_g_loss
-                else:
-                    vae_total_loss = vae_loss
+                gan_g_loss = gan_loss_real(discriminator(vae_output), vae_output.device)
+                # if global_step > 200:
+                vae_total_loss = vae_loss + gan_g_loss
+                # else:
+                #     vae_total_loss = vae_loss
                 # # Gather the losses across all processes for logging (if we use distributed training).
                 # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
                 # train_loss += avg_loss.item() / args.gradient_accumulation_steps
 
                 # Backpropagate
-                if global_step > 200:
-                    accelerator.backward(vae_total_loss)
-                    if accelerator.sync_gradients:
-                        accelerator.clip_grad_norm_(vae.parameters(), args.max_grad_norm)
-                    optimizer.step()
-                    lr_scheduler.step()
-                    optimizer.zero_grad()
+                # if global_step > 200:
+                accelerator.backward(vae_total_loss)
+                if accelerator.sync_gradients:
+                    accelerator.clip_grad_norm_(vae.parameters(), args.max_grad_norm)
+                optimizer.step()
+                lr_scheduler.step()
+                optimizer.zero_grad()
 
             with accelerator.accumulate(discriminator):
 
@@ -609,7 +609,7 @@ def main():
                 z = posterior.sample()
                 vae_output = vae.module.decode(z).sample
 
-                gan_loss = 0.5 * gan_loss_d(discriminator(target), discriminator(vae_output), target.device)
+                gan_loss = 0.5 * (gan_loss_real(discriminator(target), target.device) + gan_loss_fake(discriminator(vae_output), vae_output.device))
 
                 # # Gather the losses across all processes for logging (if we use distributed training).
                 # avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
