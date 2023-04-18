@@ -409,6 +409,7 @@ def main():
         "/home/v-yuancwang/AUDIT_v2/medata_infos/add_a_b.json",
         "/home/v-yuancwang/AUDIT_v2/medata_infos/add_b_before_a.json"
         ])
+
     dataset = dataset["train"]
     mel_column = "mel"
     caption_column = "caption"

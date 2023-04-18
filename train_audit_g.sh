@@ -1,4 +1,4 @@
-export MODEL_NAME="/blob/v-yuancwang/AudioEditingModel/Diffusion_SG/checkpoint-450000"
+export MODEL_NAME="/blob/v-yuancwang/AudioEditingModel/Diffusion_SG/checkpoint-200000"
 export TRAIN_DIR=""
 
 accelerate launch train_audit_g.py \
@@ -14,4 +14,4 @@ accelerate launch train_audit_g.py \
   --learning_rate=5e-5 \
   --max_grad_norm=1 \
   --lr_scheduler="constant" --lr_warmup_steps=0 \
-  --output_dir="/blob/v-yuancwang/AUDITPLUS/AUDIT-G"\
+  --output_dir="/blob/v-yuancwang/AUDITPLUS/AUDIT_G"
