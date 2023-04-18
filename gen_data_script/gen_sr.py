@@ -81,8 +81,6 @@ def gen_sr(wav_path, sr_wav_path, sr_mel_path):
         if file_name in sr_wav_set:
             continue
         try:
-            mel = np.load(os.path.join(sr_mel_path, file_name.replace(".wav", ".npy")))
-            print(mel.shape)
             wav, sr = librosa.load(os.path.join(wav_path, file_name), sr=8000)
             wav = np.clip(wav, -1, 1)
             wav = wav * MAX_WAV_VALUE
@@ -108,6 +106,14 @@ def gen_sr(wav_path, sr_wav_path, sr_mel_path):
         except:
             continue
 
-gen_sr()
-gen_sr()
-gen_sr()
+gen_sr("/blob/v-yuancwang/WavCaps/AudioSet_SL/wav",
+        "/blob/v-yuancwang/WavCaps/AudioSet_SL/sr/wav",
+        "/blob/v-yuancwang/WavCaps/AudioSet_SL/sr/mel")
+
+gen_sr("/blob/v-yuancwang/WavCaps/BBC/wav",
+        "/blob/v-yuancwang/WavCaps/BBC/sr/wav",
+        "/blob/v-yuancwang/WavCaps/BBC/sr/mel")
+
+gen_sr("/blob/v-yuancwang/WavCaps/SoundBible/wav",
+        "/blob/v-yuancwang/WavCaps/SoundBible/sr/wav",
+        "/blob/v-yuancwang/WavCaps/SoundBible/sr/mel")
