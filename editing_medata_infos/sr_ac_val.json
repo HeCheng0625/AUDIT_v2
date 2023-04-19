@@ -1,0 +1,2247 @@
+[
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xVzetIIzS9c_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xVzetIIzS9c_30000_40000.npy",
+        "caption": "Super-resolution: An emergency vehicle siren sounds quickly then a motorcycle accelerates"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yRcOezOVG_s_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yRcOezOVG_s_10000_20000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/voJh2gJxXhA_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/voJh2gJxXhA_50000_60000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/su6FAOcOA8c_4000_14000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/su6FAOcOA8c_4000_14000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wIvYjuR3nrg_9000_19000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wIvYjuR3nrg_9000_19000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tOS_WIURC-4_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tOS_WIURC-4_0_10000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A motorcycle engine roars"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v5P-ThUCINM_400000_410000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v5P-ThUCINM_400000_410000.npy",
+        "caption": "Perform super-resolution: White noise and a man speaking with birds chirping in the distance"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xV7Mg1QucSc_14000_24000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xV7Mg1QucSc_14000_24000.npy",
+        "caption": "Increase resolution: Constant static as a clock plays a tune and ticktocks then a man says something and laughs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vlJS7LN2XyM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vlJS7LN2XyM_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wP8ZKrlx3oA_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wP8ZKrlx3oA_40000_50000.npy",
+        "caption": "Boost the resolution of the audio track: Rain falls on a hard surface"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v25l1jef3JY_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v25l1jef3JY_0_10000.npy",
+        "caption": "Perform super-resolution: An insect buzzes around continuously"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zhx6hoYrHeI_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zhx6hoYrHeI_160000_170000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uYT5gxnyMWM_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uYT5gxnyMWM_50000_60000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xM4joTqDVp4_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xM4joTqDVp4_160000_170000.npy",
+        "caption": "Increase resolution: Birds chirp and a train approaches"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tcd9QCdjTI0_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tcd9QCdjTI0_40000_50000.npy",
+        "caption": "Perform super-resolution: Rain falls on a hard surface and thunder roars"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zY3icUyMdh8_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zY3icUyMdh8_20000_30000.npy",
+        "caption": "Boost the resolution of the audio track: A dog barks as a vehicle idles then accelerates"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zj2R0XoFr5k_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zj2R0XoFr5k_50000_60000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: An airplane passes overhead with a woman speaking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vXlk0lIQBFo_470000_480000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vXlk0lIQBFo_470000_480000.npy",
+        "caption": "Increase the sampling rate of the audio: Women speak among themselves while outside, the wind blows strongly and wind chimes move in the wind"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uiNuH51lzVY_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uiNuH51lzVY_130000_140000.npy",
+        "caption": "Perform super-resolution: A man speaks as flowing water accompanies him"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w9lpbUn0hPc_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w9lpbUn0hPc_30000_40000.npy",
+        "caption": "Increase resolution: A man speaking followed by a man in the distance then a short burst of air spraying with wind blowing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u7C-_AEBQ_M_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u7C-_AEBQ_M_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A clock ticktocks and wind blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tgbONvsP47Y_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tgbONvsP47Y_0_10000.npy",
+        "caption": "Increase resolution: An engine runs over traffic noises"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sofxkNWaP0s_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sofxkNWaP0s_30000_40000.npy",
+        "caption": "Increase resolution: A loud aircraft engine pierces the air and increases in strength as it draws nearer muffling the speech of those present."
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x5cuQjOdM3E_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x5cuQjOdM3E_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zoKp_laniT8_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zoKp_laniT8_10000_20000.npy",
+        "caption": "Increase the sampling rate of the audio: A boat passes by on the water and a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yZZFDWkYJYs_16000_26000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZZFDWkYJYs_16000_26000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ujjK7WUHxss_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ujjK7WUHxss_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: Wind sounds blow nearby, and then sheep bleat, followed by people talking quietly nearby"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wRBHTgrbiwg_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wRBHTgrbiwg_50000_60000.npy",
+        "caption": "Boost the resolution of the audio track: Birds tweet and insects chatter quietly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vlS6YMeWAPo_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vlS6YMeWAPo_40000_50000.npy",
+        "caption": "Perform super-resolution: A goat bleats thereafter a birds chirps"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t8CV69hcvF0_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t8CV69hcvF0_210000_220000.npy",
+        "caption": "Increase the sampling rate of the audio: A person sneezes then speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/z4uELRI6p08_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z4uELRI6p08_40000_50000.npy",
+        "caption": "Super-resolution: Laughing followed by a short groan then more laughing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xMXvkIcaG0Y_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xMXvkIcaG0Y_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A motor revs loudly and then decreases"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wicG6b_Yyus_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wicG6b_Yyus_30000_40000.npy",
+        "caption": "Super-resolution: Passengers talk on a moving bus"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ukg5L09Wpvo_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ukg5L09Wpvo_150000_160000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A horn blares repeatedly against a backdrop of clanging metal and chugging machinery"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zliInBdC98Y_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zliInBdC98Y_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A baby cries and screams followed by a woman talking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vfrWmHgjkjM_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vfrWmHgjkjM_10000_20000.npy",
+        "caption": "Boost the resolution of the audio track: An insect flies around buzzing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ryFDPxgDOGc_570000_580000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ryFDPxgDOGc_570000_580000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v-g-j2uTByM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v-g-j2uTByM_30000_40000.npy",
+        "caption": "Perform super-resolution: Ticking of a clock with light electrical humming in the distance"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wSV_hSdj0F0_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wSV_hSdj0F0_10000_20000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v0wPrLBI3hg_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v0wPrLBI3hg_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sd7x_Vssqlw_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sd7x_Vssqlw_50000_60000.npy",
+        "caption": "Super-resolution: Humming of a powerful passing engine speeding by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zPpG3RD8lSs_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPpG3RD8lSs_20000_30000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ujMt0-D-x2k_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ujMt0-D-x2k_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: A person is snoring while sleeping"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yHtbLI6kxAc_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yHtbLI6kxAc_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u6BnG6YZqJ4_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u6BnG6YZqJ4_0_10000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wzXPRI7eXOM_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wzXPRI7eXOM_50000_60000.npy",
+        "caption": "Upscale audio to higher resolution: Several motors roar as a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sncRqQ67iJU_460000_470000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sncRqQ67iJU_460000_470000.npy",
+        "caption": "Perform super-resolution: A person breathes thickly and snores"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zCrAfDfv6-A_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zCrAfDfv6-A_30000_40000.npy",
+        "caption": "Perform super-resolution: A person whistles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x5eIC7S0fbg_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x5eIC7S0fbg_60000_70000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/soTOh3zYJfY_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/soTOh3zYJfY_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/rwT__ERCUno_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rwT__ERCUno_90000_100000.npy",
+        "caption": "Increase resolution: An engine is idling while people speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zAYW_RjbHHI_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zAYW_RjbHHI_90000_100000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wqADXCzngMw_340000_350000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqADXCzngMw_340000_350000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w34HjHr6gAY_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w34HjHr6gAY_30000_40000.npy",
+        "caption": "Super-resolution: A beep occurs multiple times then an ear-blasting sound occurs before a cartoon character speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v8vMLTp5Dww_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v8vMLTp5Dww_210000_220000.npy",
+        "caption": "Increase the sampling rate of the audio: Wind blows as rain falls on a hard surface and a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zg0X6BnhOLQ_410000_420000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zg0X6BnhOLQ_410000_420000.npy",
+        "caption": "Increase resolution: An animal makes a squawking bleat"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tfwqvvLzC0E_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tfwqvvLzC0E_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/z4VCMzobZbI_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z4VCMzobZbI_100000_110000.npy",
+        "caption": "Boost the resolution of the audio track: Food begins to sizzle as a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vbpKkWvfOu4_560000_570000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vbpKkWvfOu4_560000_570000.npy",
+        "caption": "Upscale audio to higher resolution: A woman speaks and a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sU53zg9Jp7s_380000_390000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sU53zg9Jp7s_380000_390000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A bell chimes quietly while a bird chirps and a woman gasps as ominous music plays"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wyjQhK3XMFQ_180000_190000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wyjQhK3XMFQ_180000_190000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xDsO5LiaaAY_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xDsO5LiaaAY_90000_100000.npy",
+        "caption": "Super-resolution: A small engine spools up slowly then decelerates briefly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t69a8aRKhmc_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t69a8aRKhmc_30000_40000.npy",
+        "caption": "Perform super-resolution: Two men speak and doves coo in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vD6lYD1l0BY_330000_340000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vD6lYD1l0BY_330000_340000.npy",
+        "caption": "Increase the sampling rate of the audio: A man speaks as a liquid is sprayed making a hiss noise"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ugHJF0hfYkg_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ugHJF0hfYkg_10000_20000.npy",
+        "caption": "Increase resolution: A motor runs efficiently"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/scYRUkrFLiQ_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/scYRUkrFLiQ_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s59PfAghdkM_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s59PfAghdkM_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: Birds chirp then a girl speaks and a horse neighs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yXrw3GRMZag_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yXrw3GRMZag_40000_50000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xZepNM9qcRA_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xZepNM9qcRA_30000_40000.npy",
+        "caption": "Perform super-resolution: A motorcycle engine is revving while a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/spYNpeN7rPY_1000_11000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/spYNpeN7rPY_1000_11000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tB7hWb9gTuQ_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tB7hWb9gTuQ_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: Water splashes and dribbles against a hard surface"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yUsCyVRXMoY_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yUsCyVRXMoY_20000_30000.npy",
+        "caption": "Increase the sampling rate of the audio: Hissing and vibrating followed by a loud click"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sTpirNYo8vQ_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sTpirNYo8vQ_30000_40000.npy",
+        "caption": "Increase resolution: Multiple people speak as vehicle horns blow"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uWAAAL4CIoc_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uWAAAL4CIoc_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: A woman speaks as a bird chirps"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tTKJR_oYdhw_11000_21000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tTKJR_oYdhw_11000_21000.npy",
+        "caption": "Super-resolution: A sheep baas followed by a pig oinking, then a loud explosion and a grunt"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xKB8O8LTs6s_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xKB8O8LTs6s_70000_80000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vhJWZhe_qaE_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vhJWZhe_qaE_0_10000.npy",
+        "caption": "Increase the sampling rate of the audio: A toilet flushes"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sgAjFcKriHk_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sgAjFcKriHk_60000_70000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vf44CgrjT0A_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vf44CgrjT0A_20000_30000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zU-oKUEckKo_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zU-oKUEckKo_60000_70000.npy",
+        "caption": "Upscale audio to higher resolution: A horn blares and metal squeals"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/rwb6PSAee5Y_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rwb6PSAee5Y_60000_70000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y8dSeubCN_I_4000_14000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y8dSeubCN_I_4000_14000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zdYdyF9-m8U_7000_17000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zdYdyF9-m8U_7000_17000.npy",
+        "caption": "Perform super-resolution: Ocean waves crashing as water trickles and splashes while wind blows into a microphone alongside seagulls squawking in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vhIcOufIwo4_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vhIcOufIwo4_30000_40000.npy",
+        "caption": "Perform super-resolution: Several men talk and someone whistles followed by pigeons cooing and flapping wings"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tc7UjDIyobI_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tc7UjDIyobI_10000_20000.npy",
+        "caption": "Increase resolution: Several birds tweet nearby"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uiItxDsDMFI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uiItxDsDMFI_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A saw cuts roughly through something"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xBxDz0CFVn0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xBxDz0CFVn0_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: Wind blows while people talk and waves crash against a shoreline"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wyllXV6PjKo_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wyllXV6PjKo_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A woman and man speak then an infant begins to cry"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sYITalLZjj4_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sYITalLZjj4_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: Wind gusts near a stream as birds chirp"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/smGI3C1N_Zc_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/smGI3C1N_Zc_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A toilet flushes and water drains out"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vgi3GPTdFt4_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vgi3GPTdFt4_50000_60000.npy",
+        "caption": "Super-resolution: Music plays and birds chirp before a man speaks and a whistle blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sNB8zxXneIM_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sNB8zxXneIM_20000_30000.npy",
+        "caption": "Boost the resolution of the audio track: Cows moo and are then joined by rooster crowing and then ducks quacking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sYj4hpDUZDQ_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sYj4hpDUZDQ_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zcDwZ6W7E3E_180000_190000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zcDwZ6W7E3E_180000_190000.npy",
+        "caption": "Boost the resolution of the audio track: A vehicle passing while a man talks by followed by several motorcycles passing by as another man talks in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v7Pz4dWmggg_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v7Pz4dWmggg_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xzKKf9bKNUo_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xzKKf9bKNUo_10000_20000.npy",
+        "caption": "Perform super-resolution: A person is snoring while sleeping"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yVVP8XvWJTo_260000_270000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yVVP8XvWJTo_260000_270000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wEBlkGWVWwE_260000_270000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wEBlkGWVWwE_260000_270000.npy",
+        "caption": "Upscale audio to higher resolution: As a baby talks in the distance, a woman speaks nearby"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uKCSGgof8gI_12000_22000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uKCSGgof8gI_12000_22000.npy",
+        "caption": "Super-resolution: Humming and rustling of a fire truck passing in the distance with its siren ringing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yfdjbS0FjI0_24000_34000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yfdjbS0FjI0_24000_34000.npy",
+        "caption": "Increase resolution: A vehicle traverses a bump and distant engines run"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zPKXXJn5r3U_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPKXXJn5r3U_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yswmmRZFItk_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yswmmRZFItk_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: A frog croaks and makes noises"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tQWGZLItBXk_170000_180000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tQWGZLItBXk_170000_180000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zuua6-5goWw_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zuua6-5goWw_30000_40000.npy",
+        "caption": "Super-resolution: Birds twitter and chirp as a man speak quietly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wvKpEYswXO0_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wvKpEYswXO0_150000_160000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y1saVTXsKwc_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y1saVTXsKwc_80000_90000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wob-3S4VjMs_140000_150000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wob-3S4VjMs_140000_150000.npy",
+        "caption": "Super-resolution: Keys clicking on a computer keyboard"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y2bVZ7rz-5M_280000_290000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y2bVZ7rz-5M_280000_290000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tMbMDvT50j8_12000_22000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tMbMDvT50j8_12000_22000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A child cries while a woman talks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xYoIXskAdKg_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xYoIXskAdKg_20000_30000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yT5WfYMRr-U_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yT5WfYMRr-U_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: A man speaks nearby as machinery hums in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x4dZyf9Gbj0_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x4dZyf9Gbj0_130000_140000.npy",
+        "caption": "Increase resolution: A woman sneezes and then speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w2M4i1mklOA_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2M4i1mklOA_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A clock rings and ticktocks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zofjfKhqLk8_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zofjfKhqLk8_10000_20000.npy",
+        "caption": "Super-resolution: A powered saw runs through some wood"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sHbXC6na9hg_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sHbXC6na9hg_0_10000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: An engine runs and people speak as cutting takes place"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t4WCFbE0A50_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t4WCFbE0A50_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: Food sizzles as someone prepares a meal"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ziUT9IFTkjg_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ziUT9IFTkjg_10000_20000.npy",
+        "caption": "Upscale audio to higher resolution: Chimes ring very lightly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y4MY9mp8-TA_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y4MY9mp8-TA_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vofpvUo6NAw_220000_230000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vofpvUo6NAw_220000_230000.npy",
+        "caption": "Upscale audio to higher resolution: A plastic package crumples and crinkles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sShpyu2l4YQ_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sShpyu2l4YQ_0_10000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sLUnaPT5gM8_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sLUnaPT5gM8_0_10000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uP_Dn2BFTHk_140000_150000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uP_Dn2BFTHk_140000_150000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A female laughs as a baby fidgets and babbles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yRx9txMcBl0_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yRx9txMcBl0_40000_50000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wPz6QRAkEb4_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wPz6QRAkEb4_60000_70000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v_OQfEIq_PY_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v_OQfEIq_PY_70000_80000.npy",
+        "caption": "Increase resolution: A drill runs continuously"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tRJVUSdMjQI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tRJVUSdMjQI_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A woman talks and a man laughs and talks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/rqfQRErjfk8_170000_180000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rqfQRErjfk8_170000_180000.npy",
+        "caption": "Increase the sampling rate of the audio: An audience cheers"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vZAw4apG0Es_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vZAw4apG0Es_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yZrFNS7GFBQ_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZrFNS7GFBQ_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A bird vocalizes repeatedly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w8hYTIDPWGI_270000_280000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w8hYTIDPWGI_270000_280000.npy",
+        "caption": "Super-resolution: Distant speech and white noise followed by barking and laughter"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uCuo8zAkTvE_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uCuo8zAkTvE_90000_100000.npy",
+        "caption": "Increase the sampling rate of the audio: Heavy rain falls in a surface"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s4tUs779vBA_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s4tUs779vBA_160000_170000.npy",
+        "caption": "Super-resolution: A motor runs choppily, followed by an animal croaking, and a person exclaiming"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wdXV3Pv0jiY_11000_21000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wdXV3Pv0jiY_11000_21000.npy",
+        "caption": "Upscale audio to higher resolution: A machine whirring nearby"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xOZfdgAgJ9o_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xOZfdgAgJ9o_40000_50000.npy",
+        "caption": "Increase the sampling rate of the audio: A woman speaks, followed by another woman who cries and speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vaX_J_G3638_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vaX_J_G3638_130000_140000.npy",
+        "caption": "Increase the sampling rate of the audio: Horse walking while people talking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x-PeY8Yb8M4_300000_310000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x-PeY8Yb8M4_300000_310000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A stream of water flows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ti_DFTC-5vU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ti_DFTC-5vU_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A duck quacks with people speaking and laughing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wDVMhEdTiVw_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wDVMhEdTiVw_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tw76HGONaKg_570000_580000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tw76HGONaKg_570000_580000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A man speaks over keyboard sounds and some background electronic music"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tqQp8lSf-V4_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tqQp8lSf-V4_0_10000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sG7TyPnFDR0_180000_190000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sG7TyPnFDR0_180000_190000.npy",
+        "caption": "Upscale audio to higher resolution: A man speaks followed by a two beeps and another man speaking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zd93ITwIf_g_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zd93ITwIf_g_70000_80000.npy",
+        "caption": "Upscale audio to higher resolution: A man speaks as objects rattle and move"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wqTCwqVRDlk_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqTCwqVRDlk_80000_90000.npy",
+        "caption": "Upscale audio to higher resolution: A gun is shot several times"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xhmRY9yhC7c_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xhmRY9yhC7c_20000_30000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sC_i_y7QS1U_300000_310000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sC_i_y7QS1U_300000_310000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wjsXBsc7M40_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wjsXBsc7M40_10000_20000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Water drips in the background while a kid and baby laugh"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tH-q8LXgHEc_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tH-q8LXgHEc_70000_80000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vveS8HT7Uog_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vveS8HT7Uog_100000_110000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wTideSjRFS0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wTideSjRFS0_30000_40000.npy",
+        "caption": "Super-resolution: Sizzling together with female speech"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vqZuVbG6-HI_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vqZuVbG6-HI_130000_140000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zk-xJGQU8-4_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zk-xJGQU8-4_130000_140000.npy",
+        "caption": "Upscale audio to higher resolution: A man and woman are speaking while grease is popping"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vKrYfzleLB8_110000_120000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vKrYfzleLB8_110000_120000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: People are talking as gun is fired"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xNMovAf3o50_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xNMovAf3o50_0_10000.npy",
+        "caption": "Super-resolution: A heavy rain falls followed by a music being played"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vbZ-0lGPneg_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vbZ-0lGPneg_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vBeI4j_kJro_16000_26000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vBeI4j_kJro_16000_26000.npy",
+        "caption": "Boost the resolution of the audio track: A man speaks haltingly as a baby stirs softly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sMC07Ucy7kg_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sMC07Ucy7kg_10000_20000.npy",
+        "caption": "Increase the sampling rate of the audio: A magazine is loaded and gunfire occurs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v5cSxLaHADY_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v5cSxLaHADY_0_10000.npy",
+        "caption": "Perform super-resolution: Paper is crumpled and torn"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zgUgkpk78xU_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zgUgkpk78xU_70000_80000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tqR406bGi_E_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tqR406bGi_E_40000_50000.npy",
+        "caption": "Upscale audio to higher resolution: A toilet flushes and water drains"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yks4cLgIDMc_170000_180000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yks4cLgIDMc_170000_180000.npy",
+        "caption": "Upscale audio to higher resolution: Several adults speaks as children yell and shout"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yDoT73BWsdA_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yDoT73BWsdA_10000_20000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yHeVV-xeOxQ_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yHeVV-xeOxQ_130000_140000.npy",
+        "caption": "Perform super-resolution: A woman speaks and scraps an object against metal"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uqFtmnhuqA8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uqFtmnhuqA8_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A clock rings and ticktocks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yaln9y8I7ms_230000_240000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yaln9y8I7ms_230000_240000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Clicking followed by a flushing toilet and a child speaking briefly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zl9Dqx-j7q4_6000_16000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zl9Dqx-j7q4_6000_16000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: Motors run harshly as a person laughs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vh30P49Po6s_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vh30P49Po6s_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: An animal chatters frantically, then quacks repeatedly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uzQnlJXBbOM_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uzQnlJXBbOM_50000_60000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A telephone rings and a man speaks before answering"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sd_XV-ylviw_190000_200000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sd_XV-ylviw_190000_200000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/rqu8iB22I_Y_5000_15000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rqu8iB22I_Y_5000_15000.npy",
+        "caption": "Increase the sampling rate of the audio: People yell and laugh as a vehicle approaches and sputters"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v-wcQf4BDY0_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v-wcQf4BDY0_120000_130000.npy",
+        "caption": "Increase resolution: Multiple dogs bark"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wulOEFdECWs_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wulOEFdECWs_10000_20000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tvP4E1r7yk8_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tvP4E1r7yk8_120000_130000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wwyfGO2J__4_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wwyfGO2J__4_90000_100000.npy",
+        "caption": "Increase resolution: An audience gives applause then people speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xERFUeZONz8_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xERFUeZONz8_0_10000.npy",
+        "caption": "Increase resolution: A siren wails, and then interrupted, and wails again"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ukxt9I7eMMg_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ukxt9I7eMMg_30000_40000.npy",
+        "caption": "Perform super-resolution: Food sizzles as a woman and a man speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u-6osTkkOfY_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u-6osTkkOfY_80000_90000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A car travels along a road followed by water hissing loudly as it runs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w2JXXIAdUdg_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2JXXIAdUdg_10000_20000.npy",
+        "caption": "Boost the resolution of the audio track: Someone snores while sleeping and people talk in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/z5iUE5h0EPs_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z5iUE5h0EPs_30000_40000.npy",
+        "caption": "Increase resolution: Rustling with people speaking and a goat bleating"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wTjoRj1se3U_390000_400000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wTjoRj1se3U_390000_400000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uOJJan5RRGo_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uOJJan5RRGo_120000_130000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A child speaks while interference takes place"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xX2OnECANVI_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xX2OnECANVI_70000_80000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tG_cFnX0GHI_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tG_cFnX0GHI_0_10000.npy",
+        "caption": "Perform super-resolution: A telephone rings and a woman begins speaking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vMf1dLD6Sng_6000_16000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vMf1dLD6Sng_6000_16000.npy",
+        "caption": "Increase resolution: Water trickles as frogs croak loudly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v7jJ_S8aAyA_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v7jJ_S8aAyA_10000_20000.npy",
+        "caption": "Super-resolution: Low rumbling humming of an idling engine with wind blowing hard"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/skd2PphS6oI_190000_200000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/skd2PphS6oI_190000_200000.npy",
+        "caption": "Perform super-resolution: A telephone rings then is picked up"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vvdb2UyJQrs_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vvdb2UyJQrs_20000_30000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A baby coos and laughs as a woman speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yYJksgsxx5U_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yYJksgsxx5U_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A woman speaks while music plays in the background as she uses cutlery"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wnNNcxAPwGQ_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wnNNcxAPwGQ_0_10000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sCeWURVHfOM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sCeWURVHfOM_30000_40000.npy",
+        "caption": "Increase resolution: A clock ticktocks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zl3OnWjr3Y4_140000_150000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zl3OnWjr3Y4_140000_150000.npy",
+        "caption": "Boost the resolution of the audio track: A man speaks while typing on a keyboard"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yFB25fqfU8I_300000_310000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yFB25fqfU8I_300000_310000.npy",
+        "caption": "Upscale audio to higher resolution: Waves crash and people laugh"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w6RTHR6AeAg_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w6RTHR6AeAg_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vJvryTwuAV8_16000_26000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vJvryTwuAV8_16000_26000.npy",
+        "caption": "Upscale audio to higher resolution: People chant loudly then something pops and the people continue to chant then they begin screaming"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xC8kbrKJmco_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xC8kbrKJmco_0_10000.npy",
+        "caption": "Increase resolution: White noise and screaming"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uOpoD0gGXcs_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uOpoD0gGXcs_120000_130000.npy",
+        "caption": "Increase the sampling rate of the audio: A person whistles and yells as wind lightly gusts"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uqFvD_nXw8I_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uqFvD_nXw8I_160000_170000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: Aircraft fly overhead and music plays"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ztQ79sWWC34_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ztQ79sWWC34_60000_70000.npy",
+        "caption": "Upscale audio to higher resolution: A child is speaking, shuffling and faint scraping occur, and a glass dish thumps"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vcTWN0HCyoY_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vcTWN0HCyoY_210000_220000.npy",
+        "caption": "Increase the sampling rate of the audio: Rain falls onto a surface and thunder roars"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y4tPJXBKDig_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y4tPJXBKDig_20000_30000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A young girl speaks then a person sneezes"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vms5XGTDVQc_220000_230000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vms5XGTDVQc_220000_230000.npy",
+        "caption": "Super-resolution: Continuous crumpling and crinkling"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xfudFO976zE_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xfudFO976zE_0_10000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Animals bleat and baa and metal bangs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u2f5NpsoHBg_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u2f5NpsoHBg_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y682ml90jGw_11000_21000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y682ml90jGw_11000_21000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xyL9F5VrjkE_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xyL9F5VrjkE_20000_30000.npy",
+        "caption": "Perform super-resolution: A truck engine runs while wind blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zsLxS-uLJTw_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zsLxS-uLJTw_20000_30000.npy",
+        "caption": "Perform super-resolution: A train horn sounds loudly and clickety-clacks on the tracks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tjmoSi330GM_23000_33000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tjmoSi330GM_23000_33000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A medium sized engine runs and a man talks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sEprKHm8Sj8_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sEprKHm8Sj8_90000_100000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zF_jIWfSD-4_410000_420000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zF_jIWfSD-4_410000_420000.npy",
+        "caption": "Upscale audio to higher resolution: An engine works while people talk."
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wVRxa3BBHaQ_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wVRxa3BBHaQ_20000_30000.npy",
+        "caption": "Super-resolution: People speak through a radio while it makes frequency noises"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ylpYOorfH4o_410000_420000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ylpYOorfH4o_410000_420000.npy",
+        "caption": "Perform super-resolution: A vehicle engine idles as a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w2htir_si7g_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2htir_si7g_100000_110000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w1mlz3Pe4fU_300000_310000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w1mlz3Pe4fU_300000_310000.npy",
+        "caption": "Super-resolution: Several birds tweet and chirp continuously"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zPX9o1uD_iI_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPX9o1uD_iI_40000_50000.npy",
+        "caption": "Super-resolution: A whistle blows as a running motor nears"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sm74QGpHDXg_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sm74QGpHDXg_20000_30000.npy",
+        "caption": "Increase resolution: A person is typing on a keyboard while a character in a video game speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yLy-WycbVVE_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yLy-WycbVVE_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Horns honk discordantly as numerous people talk"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uJe1Gvp-MeM_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uJe1Gvp-MeM_40000_50000.npy",
+        "caption": "Super-resolution: A single bird is chirping"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s4Uz1Ffgo04_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s4Uz1Ffgo04_100000_110000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A vehicle with a diesel engine accelerates"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wRV8yMk886E_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wRV8yMk886E_0_10000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A man speaks followed by a loud burst"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uyznsufCKbA_170000_180000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uyznsufCKbA_170000_180000.npy",
+        "caption": "Perform super-resolution: A drill runs continuously before stopping abruptly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yKKOHg5xlPE_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yKKOHg5xlPE_20000_30000.npy",
+        "caption": "Upscale audio to higher resolution: A man speaks as a metal gate closes"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vJ7JPEFhyLA_16000_26000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vJ7JPEFhyLA_16000_26000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vK93VuO0yNc_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vK93VuO0yNc_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: An engine runs as metal clings"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vuUVPzd2FXw_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vuUVPzd2FXw_160000_170000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w8uLijTqtlU_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w8uLijTqtlU_70000_80000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vmrxwuAMb2I_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vmrxwuAMb2I_40000_50000.npy",
+        "caption": "Boost the resolution of the audio track: A dog whimpers and a person inhales and exhales quickly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yI-KvObbDoY_260000_270000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yI-KvObbDoY_260000_270000.npy",
+        "caption": "Increase resolution: Wind gusts intermittently as metal squeaks and paper rustles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/syyyCQcHSfQ_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/syyyCQcHSfQ_60000_70000.npy",
+        "caption": "Perform super-resolution: A sleeping person makes a snoring sound"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tIY7qOV3rEM_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tIY7qOV3rEM_0_10000.npy",
+        "caption": "Super-resolution: A dog barks continuously and a goat bleats"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sUVVjE3Ucp8_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sUVVjE3Ucp8_0_10000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xtWeJ56-U-g_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xtWeJ56-U-g_20000_30000.npy",
+        "caption": "Upscale audio to higher resolution: A computer quietly beeps"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sQwlkXjQabo_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sQwlkXjQabo_10000_20000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t97k0cejSQE_250000_260000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t97k0cejSQE_250000_260000.npy",
+        "caption": "Upscale audio to higher resolution: Birds chirp in the distance followed by bees buzzing loudly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xfaoyyzw2WU_180000_190000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xfaoyyzw2WU_180000_190000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vH4z5OI5aNY_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vH4z5OI5aNY_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Several men talk while objects are tapped followed by an engine working in idle"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sjlVMgdGSK0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sjlVMgdGSK0_30000_40000.npy",
+        "caption": "Perform super-resolution: A vehicle engine accelerates and then another vehicle revs an engine and accelerates"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zNRCh_LjqcU_220000_230000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zNRCh_LjqcU_220000_230000.npy",
+        "caption": "Super-resolution: Food begins to sizzle in a frying pan"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/slZLHwNbbt4_300000_310000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/slZLHwNbbt4_300000_310000.npy",
+        "caption": "Increase resolution: The clickety-clack of a train on rails then a train horn blows and the train goes by closely"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vW4x7S1VfQc_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vW4x7S1VfQc_150000_160000.npy",
+        "caption": "Increase resolution: Food is frying loudly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wbHTKEJZyhc_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wbHTKEJZyhc_20000_30000.npy",
+        "caption": "Super-resolution: Water flows steadily as a woman speaks in the distance"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wIJK3-5y0kA_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wIJK3-5y0kA_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A baby scrapes on a surface and then shouts and screams gleefully"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wfHeoPDLMaM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wfHeoPDLMaM_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zjTG0gaGCUI_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zjTG0gaGCUI_80000_90000.npy",
+        "caption": "Increase resolution: The wind roars as an aircraft moves down a runway"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vBslzh7saPw_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vBslzh7saPw_90000_100000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s_apQIQUhFc_280000_290000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s_apQIQUhFc_280000_290000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vSeGhaZt-aI_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vSeGhaZt-aI_50000_60000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u6jIvCtKarQ_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u6jIvCtKarQ_70000_80000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y4NpJekTMT8_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y4NpJekTMT8_80000_90000.npy",
+        "caption": "Increase resolution: A series of tones play and something screams in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ul60S8TXDA8_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ul60S8TXDA8_60000_70000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wqN6IIHw3po_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqN6IIHw3po_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A man speaks as rain falls onto a hard surface and objects move around"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tH17JPjDPnc_260000_270000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tH17JPjDPnc_260000_270000.npy",
+        "caption": "Upscale audio to higher resolution: Metal clangs while goats baa"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ttUaPa1mkgU_230000_240000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ttUaPa1mkgU_230000_240000.npy",
+        "caption": "Increase the sampling rate of the audio: A repeated hissing and ticking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tZGN5a7ybxo_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tZGN5a7ybxo_60000_70000.npy",
+        "caption": "Boost the resolution of the audio track: A railroad car approaches from the distant, followed by a man speaking and a train horn"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wnpJndXuxLc_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wnpJndXuxLc_50000_60000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x6ijhqRY38s_250000_260000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x6ijhqRY38s_250000_260000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uZesmtKZGSw_250000_260000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uZesmtKZGSw_250000_260000.npy",
+        "caption": "Super-resolution: Two male voices talking one after the other, all the while race cars are constantly zooming by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vGj1XLJvNrw_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vGj1XLJvNrw_0_10000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yZmhM1HcsyE_4000_14000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZmhM1HcsyE_4000_14000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uRlbY6_aoBU_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uRlbY6_aoBU_0_10000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xIS6JwaGxuk_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xIS6JwaGxuk_10000_20000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A dog barks and growls before a man and woman speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/smDKStoHBJo_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/smDKStoHBJo_0_10000.npy",
+        "caption": "Super-resolution: A baby cries and a woman speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sZPuqDgX2V0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sZPuqDgX2V0_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: Motors sputter over an indistinct conversation"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u5RmF3c3_Aw_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u5RmF3c3_Aw_60000_70000.npy",
+        "caption": "Super-resolution: Multiple vehicles race by and a struggling engine sputters"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yNtRmrn0io8_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yNtRmrn0io8_210000_220000.npy",
+        "caption": "Super-resolution: Rain falling while thunder roars in the distance as water lightly trickles and wind blows into a microphone"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tHyNqRyK34A_24000_34000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tHyNqRyK34A_24000_34000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yTMbYkZ-Vkc_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yTMbYkZ-Vkc_0_10000.npy",
+        "caption": "Increase the sampling rate of the audio: A vehicle engine revs then accelerates"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y2ZBGpgbhHM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y2ZBGpgbhHM_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A bird chirps as a car drives by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v8bbhO8NvPY_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v8bbhO8NvPY_30000_40000.npy",
+        "caption": "Perform super-resolution: Water flows in the background while there is ticking followed by a gong"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tHJ6JSa8_Y4_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tHJ6JSa8_Y4_0_10000.npy",
+        "caption": "Boost the resolution of the audio track: Small fidgeting noises are followed by a single beep"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xmiUIOhtZyQ_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xmiUIOhtZyQ_60000_70000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uyRfq-jKPpo_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uyRfq-jKPpo_50000_60000.npy",
+        "caption": "Super-resolution: Water is running through a sink as some water goes down the sink"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zF8yoL0rkbI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zF8yoL0rkbI_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: Humming of an engine with wind blowing hard and a man speaking briefly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xmdGaCbvhFc_140000_150000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xmdGaCbvhFc_140000_150000.npy",
+        "caption": "Perform super-resolution: A man speaks as a water faucet runs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/viuTg1M-dqg_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/viuTg1M-dqg_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A man speaks before another man talks over an engine sound"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sOa7g-44Dag_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sOa7g-44Dag_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xSN_cBFt-PI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xSN_cBFt-PI_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w5W_5Kqtc8E_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w5W_5Kqtc8E_100000_110000.npy",
+        "caption": "Increase resolution: Wind blows and water flows before people cheer"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vbr9mHKc8WM_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vbr9mHKc8WM_40000_50000.npy",
+        "caption": "Boost the resolution of the audio track: A low rumbling increasing into a loud buzz"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sSMl2vc3e_k_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sSMl2vc3e_k_20000_30000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vs65y4qmyBE_340000_350000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vs65y4qmyBE_340000_350000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A strong wind blows and a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sr1_Gfm0syI_140000_150000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sr1_Gfm0syI_140000_150000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A crowd cheers and applause followed by a buzzer"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/rwtmaKiCcQU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/rwtmaKiCcQU_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A person sprays liquid onto a hard surface as a man speaks and vehicles pass by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wUub94P1uq0_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wUub94P1uq0_10000_20000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xeOp_6mV1DY_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xeOp_6mV1DY_60000_70000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: Ducks quack loudly and repeatedly while men speak and a dog barks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zALy31PjDl0_21000_31000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zALy31PjDl0_21000_31000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sW_ZzX_uWYY_420000_430000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sW_ZzX_uWYY_420000_430000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/siJFXfGWgDk_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/siJFXfGWgDk_50000_60000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A man speaking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vZAqdHZ81yA_180000_190000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vZAqdHZ81yA_180000_190000.npy",
+        "caption": "Super-resolution: A vehicle that is idling"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wvmLR1nQ1qs_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wvmLR1nQ1qs_50000_60000.npy",
+        "caption": "Increase the sampling rate of the audio: A train approaches and the train horn sounds"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vb1fPSD_I4c_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vb1fPSD_I4c_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ueri5ZFoY7w_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ueri5ZFoY7w_0_10000.npy",
+        "caption": "Boost the resolution of the audio track: A vehicle accelerates quickly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x6iCUDmRpKQ_38000_48000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x6iCUDmRpKQ_38000_48000.npy",
+        "caption": "Perform super-resolution: A crowd applause"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sLkeqCDJIyw_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sLkeqCDJIyw_120000_130000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yajyRTUQk3U_400000_410000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yajyRTUQk3U_400000_410000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A woman speaks while food is frying"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yJ0T_ePmaOo_390000_400000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yJ0T_ePmaOo_390000_400000.npy",
+        "caption": "Perform super-resolution: A male talking followed by a scraping of two objects against each other"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vzxHnu-SFEw_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vzxHnu-SFEw_80000_90000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zPJVrNMPt0A_550000_560000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zPJVrNMPt0A_550000_560000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vVhthZ45k3Y_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vVhthZ45k3Y_30000_40000.npy",
+        "caption": "Super-resolution: A cat meows while a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sDSppXIlJrs_27000_37000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sDSppXIlJrs_27000_37000.npy",
+        "caption": "Boost the resolution of the audio track: Water splashes and wind blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v3EwremxU2w_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v3EwremxU2w_70000_80000.npy",
+        "caption": "Increase the sampling rate of the audio: Several dogs barking with light scraping and tapping"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vwqaIHKxLvM_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vwqaIHKxLvM_20000_30000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tEE3MpBt1sg_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tEE3MpBt1sg_50000_60000.npy",
+        "caption": "Perform super-resolution: Men laugh and speak while using a drill"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t8tv5YRMJUg_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t8tv5YRMJUg_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: A person snores in small bursts"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zaIbETo-WtU_440000_450000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zaIbETo-WtU_440000_450000.npy",
+        "caption": "Increase resolution: The wind is blowing, birds are chirping, many flying insects are buzzing, and random whooshing and thumping occur"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sQGXqGcwOTc_3000_13000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sQGXqGcwOTc_3000_13000.npy",
+        "caption": "Super-resolution: Loud, rapid clanking followed by brief speech"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vz8868znkVQ_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vz8868znkVQ_60000_70000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A goat bleats and children laugh and speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/z9-3K1PFMjw_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/z9-3K1PFMjw_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A man speaks while a telephone operator speaks and the phone beeps"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wz_tCSUxOf8_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wz_tCSUxOf8_130000_140000.npy",
+        "caption": "Boost the resolution of the audio track: Many voices yelling then applause"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yNPcyWWmbUk_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yNPcyWWmbUk_40000_50000.npy",
+        "caption": "Super-resolution: A man is sawing a hard object then speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uFoga8sHpiw_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uFoga8sHpiw_90000_100000.npy",
+        "caption": "Perform super-resolution: A person whistles a tune"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vMDHu7Lxcgw_410000_420000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vMDHu7Lxcgw_410000_420000.npy",
+        "caption": "Super-resolution: A group of kids talking and yelling"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sfAvvZwdLCY_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sfAvvZwdLCY_20000_30000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A toilet flushes and water drains"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uWPRNLnpy7Y_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uWPRNLnpy7Y_10000_20000.npy",
+        "caption": "Super-resolution: A car accelerating and roaring as it speeds by followed by a man laughing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x_l2PIWyXaM_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x_l2PIWyXaM_160000_170000.npy",
+        "caption": "Boost the resolution of the audio track: A man and a woman talk as birds chirp in the background."
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u0T_rcHhkPQ_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u0T_rcHhkPQ_20000_30000.npy",
+        "caption": "Perform super-resolution: Motors run as rough wind blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yVPZ2MNWpms_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yVPZ2MNWpms_0_10000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A vehicle passes by as an aircraft engine runs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s3W19T14v1g_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s3W19T14v1g_40000_50000.npy",
+        "caption": "Super-resolution: Vehicles pass by on a road"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vHZQht-r5fg_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vHZQht-r5fg_10000_20000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zvmXKyAFq80_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zvmXKyAFq80_10000_20000.npy",
+        "caption": "Increase resolution: A vehicle is revving and grooming"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sxYkFKFIZD0_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sxYkFKFIZD0_20000_30000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A car tire squeals and a man speaks followed by a door opening and closing and some tearing occurs."
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xL_wHe825Zs_18000_28000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xL_wHe825Zs_18000_28000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A woman cheers, laughs and claps as a baby cries and whines"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u21-Z5gJCB8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u21-Z5gJCB8_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A man speaks while a television plays in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s7knHCFW82w_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s7knHCFW82w_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wtDqrBygTcU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wtDqrBygTcU_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: A man speaks as a boat engine runs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w1ir-sZ3Im8_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w1ir-sZ3Im8_90000_100000.npy",
+        "caption": "Perform super-resolution: Some liquid splashes nearby"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tDVADusiIoc_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tDVADusiIoc_60000_70000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wy1eKjR7KC0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wy1eKjR7KC0_30000_40000.npy",
+        "caption": "Perform super-resolution: Multiple people speak and a siren sounds"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sGgBtiZY0U8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sGgBtiZY0U8_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t5ZbXbniOWk_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t5ZbXbniOWk_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yiUDYRSJpJI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yiUDYRSJpJI_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: Rapid fire loud booming gunshots"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wqugJOvBkhY_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqugJOvBkhY_40000_50000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A horn sounds and babies laugh"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sppL1JLyvXQ_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sppL1JLyvXQ_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vf9xf3vMsGM_540000_550000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vf9xf3vMsGM_540000_550000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wrAy0C6AZ3Y_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wrAy0C6AZ3Y_150000_160000.npy",
+        "caption": "Upscale audio to higher resolution: Birds chirp as a man narrates while a group of people speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zTLVJCo4WEE_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zTLVJCo4WEE_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wmTdukran8Y_410000_420000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wmTdukran8Y_410000_420000.npy",
+        "caption": "Increase resolution: A grown man speaks and a machine cranks and runs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wudZTNBtVqc_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wudZTNBtVqc_60000_70000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yYEVLuqEytU_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yYEVLuqEytU_40000_50000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vr8ZXjEBhMQ_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vr8ZXjEBhMQ_150000_160000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A low hiss in the distance followed by an engine rev"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y636gklDioE_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y636gklDioE_20000_30000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uln8131faVs_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uln8131faVs_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: A speedboat engine revs then accelerates quickly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x4a9YGIw4ok_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x4a9YGIw4ok_120000_130000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/un9VQ_lzgZM_5000_15000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/un9VQ_lzgZM_5000_15000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A woman speaks and another laughs as wind blows and a foghorn sounds"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tezvROoo4bs_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tezvROoo4bs_40000_50000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yVumC9TGknc_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yVumC9TGknc_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A jet engine sounds as a ticktock occurs and beeping takes place"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zwOBqeFTgiU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zwOBqeFTgiU_30000_40000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: Two babies cry"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xjvTpk2Zpr8_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xjvTpk2Zpr8_70000_80000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y8WEcpOlT3I_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y8WEcpOlT3I_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yvpR-9AaJyU_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yvpR-9AaJyU_160000_170000.npy",
+        "caption": "Boost the resolution of the audio track: A helicopter engine noise gets closer than passes by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yeFvk9x0wWI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yeFvk9x0wWI_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vcmWS_mvti8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vcmWS_mvti8_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sq29diRPtbA_270000_280000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sq29diRPtbA_270000_280000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wsHBIgzs9Fs_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wsHBIgzs9Fs_50000_60000.npy",
+        "caption": "Increase the sampling rate of the audio: Some motorcycle moves then a horn is triggered and motorcycles are accelerates and a man shouts"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uC9dtII1KDI_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uC9dtII1KDI_150000_160000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x-gIWB__rIE_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x-gIWB__rIE_210000_220000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yLCORCnd35Q_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yLCORCnd35Q_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: An airplane engine runs loudly as men speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x-Yx0rqr1vY_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x-Yx0rqr1vY_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vimzuGQvdcU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vimzuGQvdcU_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/se87d6yxEOA_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/se87d6yxEOA_10000_20000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A steam train moves along a set of tracks and blows a horn"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s-T9OVOiMLo_330000_340000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s-T9OVOiMLo_330000_340000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sfk9D8cQEAg_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sfk9D8cQEAg_70000_80000.npy",
+        "caption": "Upscale audio to higher resolution: Paper rustles as objects bang and clatter"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sdv_I1mHAsc_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sdv_I1mHAsc_20000_30000.npy",
+        "caption": "Increase the sampling rate of the audio: A woman yells and fidgets over insect noises"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tPJvjq9QePY_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tPJvjq9QePY_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tbLjCaI0-Lo_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tbLjCaI0-Lo_80000_90000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A person whistles as a light wind rustles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uGS7O46tlSo_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uGS7O46tlSo_70000_80000.npy",
+        "caption": "Increase the sampling rate of the audio: A man speaks quietly as a buffeting wind blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u89op5xq8HI_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u89op5xq8HI_50000_60000.npy",
+        "caption": "Increase the sampling rate of the audio: A woman speaks while a baby laughs and speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/shmR4OZtzqA_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/shmR4OZtzqA_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zvABdOhz9fE_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zvABdOhz9fE_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tMJne1a4AFI_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tMJne1a4AFI_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: Many insects buzz as a wind lightly gusts"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xPiVrZL4qek_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xPiVrZL4qek_10000_20000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ydc0oG9pC7k_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ydc0oG9pC7k_0_10000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vVNMuFixN_A_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vVNMuFixN_A_90000_100000.npy",
+        "caption": "Increase resolution: Wind blows into a microphone and waves crash"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vfY_TJq7n_U_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vfY_TJq7n_U_130000_140000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vJrjSeP17yE_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vJrjSeP17yE_40000_50000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/y5WII6cTH7k_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/y5WII6cTH7k_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wz7N8YRy74I_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wz7N8YRy74I_30000_40000.npy",
+        "caption": "Perform super-resolution: A man speak while outside, the wind blows lightly and birds chirp in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zRNwZZQwDIU_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zRNwZZQwDIU_60000_70000.npy",
+        "caption": "Boost the resolution of the audio track: A man speaks as food sizzles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v0x1odnXtP0_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v0x1odnXtP0_210000_220000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Someone is typing on a computer keyboard"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vdoxuJn9lTc_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vdoxuJn9lTc_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tFCUUGdREgA_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tFCUUGdREgA_70000_80000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: The hoofs of a horse clatter on the ground while a man speaks and then laughs"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s6DESzUTGjY_16000_26000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s6DESzUTGjY_16000_26000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uXxVebHsGZ8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uXxVebHsGZ8_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tK4VlLsNxak_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tK4VlLsNxak_120000_130000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A man speaks as he dials an old-fashioned phone"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zOZleIRqZm4_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zOZleIRqZm4_80000_90000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tO_j4tdLRaA_70000_80000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tO_j4tdLRaA_70000_80000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u--KhUW8l1Y_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u--KhUW8l1Y_0_10000.npy",
+        "caption": "Upscale audio to higher resolution: A vehicle engine runs while a siren rings out and a horn blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yW6FWLSLkx4_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yW6FWLSLkx4_40000_50000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A girl speaks narrating a dialog"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t4Azt5G_n9I_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t4Azt5G_n9I_130000_140000.npy",
+        "caption": "Super-resolution: A machine vibrates for a long time"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sIXTftIuUgw_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sIXTftIuUgw_90000_100000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A person whistling a melody"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wGKgwOP3h30_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wGKgwOP3h30_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sa6TLVbooCc_240000_250000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sa6TLVbooCc_240000_250000.npy",
+        "caption": "Increase the sampling rate of the audio: People speak and children laugh"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vZInq2uXuEo_510000_520000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vZInq2uXuEo_510000_520000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zfvPRf3ch_Y_290000_300000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zfvPRf3ch_Y_290000_300000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uK5doE8g_nY_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uK5doE8g_nY_80000_90000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: A motor sputters and runs choppily"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zVacuqSb4LI_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zVacuqSb4LI_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tIk3enR8Yy4_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tIk3enR8Yy4_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yZp6xizR0yU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yZp6xizR0yU_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: An animal bleats and shuffles on soft ground"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/ucQikcv96gM_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/ucQikcv96gM_150000_160000.npy",
+        "caption": "Upscale audio to higher resolution: A bird makes puttering sounds repeatedly"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xvDdE3zNf8Y_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xvDdE3zNf8Y_120000_130000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: A woman speaks with some light crinkling"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tDlysoZiA1I_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tDlysoZiA1I_0_10000.npy",
+        "caption": "Increase resolution: A dog whimpers with birds chirping in the background"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w-4gHptFNuU_21000_31000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w-4gHptFNuU_21000_31000.npy",
+        "caption": "Perform super-resolution: A room and a room of an engine and then thumping"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uiS58TNyUiw_430000_440000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uiS58TNyUiw_430000_440000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sZuuj08Gr_I_150000_160000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sZuuj08Gr_I_150000_160000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w0xsN8_X18Y_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w0xsN8_X18Y_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xx3yKzrSOBI_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xx3yKzrSOBI_40000_50000.npy",
+        "caption": "Upscale audio to higher resolution: A man speaks while emergency vehicle sirens sound and cars drive quickly along a road"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wqUmIEzuNz4_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqUmIEzuNz4_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sxIvBMSavMQ_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sxIvBMSavMQ_210000_220000.npy",
+        "caption": "Super-resolution: Birds chirp and animals vocalize"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wl44ppID9ds_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wl44ppID9ds_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: Water splashes and gurgles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wWVxe57200I_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wWVxe57200I_100000_110000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/x9J_ovgqUcs_500000_510000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/x9J_ovgqUcs_500000_510000.npy",
+        "caption": "Boost the resolution of the audio track: A man talks while someone briefly types a keyboard"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yPUYU6t3rwo_370000_380000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yPUYU6t3rwo_370000_380000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zn196JcTlq0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zn196JcTlq0_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wqZ135_Ssz0_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wqZ135_Ssz0_60000_70000.npy",
+        "caption": "Increase resolution: A man and woman speak outside as the wind blows"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xyx6eNVEYRY_380000_390000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xyx6eNVEYRY_380000_390000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sZvwOuuPGP0_50000_60000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sZvwOuuPGP0_50000_60000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w_AAkbZToh8_0_10000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w_AAkbZToh8_0_10000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xSKJGCItUWE_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xSKJGCItUWE_10000_20000.npy",
+        "caption": "Perform super-resolution: Over a running engine, an excited child voice yells out"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zkKdxzNC97Y_27000_37000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zkKdxzNC97Y_27000_37000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tdWhHV3X25Q_60000_70000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tdWhHV3X25Q_60000_70000.npy",
+        "caption": "Boost the resolution of the audio track: An audience cheers and applaud while a man talks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vYkA3cfXp5Q_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vYkA3cfXp5Q_30000_40000.npy",
+        "caption": "Boost the resolution of the audio track: A vehicle engine idles then begins revving"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vx1gfpZnjAM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vx1gfpZnjAM_30000_40000.npy",
+        "caption": "Increase resolution: Gentle music underscores a chirping bird"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sk3WTKnlJ-U_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sk3WTKnlJ-U_30000_40000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yhQ2Lg-7qDY_130000_140000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yhQ2Lg-7qDY_130000_140000.npy",
+        "caption": "Upscale audio to higher resolution: Food is frying while an adult speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uJV8NDaHqqk_100000_110000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uJV8NDaHqqk_100000_110000.npy",
+        "caption": "Boost the resolution of the audio track: Birds chirp softly as insects buzz"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sK4u5T8hW78_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sK4u5T8hW78_30000_40000.npy",
+        "caption": "Convert low-resolution audio to high-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w2bYrCVLT60_120000_130000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w2bYrCVLT60_120000_130000.npy",
+        "caption": "Boost the resolution of the audio track: Ducks quack and a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/snFy48Lv3r8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/snFy48Lv3r8_30000_40000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/tDlfY3nmx1A_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/tDlfY3nmx1A_160000_170000.npy",
+        "caption": "Perform super-resolution: An audience gives applause while a man laughs then he speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/v-HKXQkpsD8_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/v-HKXQkpsD8_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vBHyYJ8p_L0_2000_12000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vBHyYJ8p_L0_2000_12000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xJSVJj-v8EE_10000_20000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xJSVJj-v8EE_10000_20000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xjhAnI2q6hM_6000_16000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xjhAnI2q6hM_6000_16000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uoGVs9yUqY4_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uoGVs9yUqY4_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: Chirping and clanking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/weDbePuc-Xc_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/weDbePuc-Xc_40000_50000.npy",
+        "caption": "Boost the resolution of the audio track: Music plays as a man laughs and whimpers, insects buzz and a frog croaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/s3cT_DAj31g_80000_90000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/s3cT_DAj31g_80000_90000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/wNZ5thZM7XU_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/wNZ5thZM7XU_20000_30000.npy",
+        "caption": "Super-resolution: Water rushes quickly, then gurgles"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/zO-LSSY92ZM_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/zO-LSSY92ZM_30000_40000.npy",
+        "caption": "Super-resolution: Someone sprays liquid onto a hard surface"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/vzceMbkl_Wc_180000_190000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/vzceMbkl_Wc_180000_190000.npy",
+        "caption": "Increase the sampling rate of the audio: Water runs into a container as several men speak"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uRExseg-0XI_210000_220000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uRExseg-0XI_210000_220000.npy",
+        "caption": "Increase resolution: A woman speaks as water flows, then the water stops, and a man speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uEU-Hg5MTN8_27000_37000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uEU-Hg5MTN8_27000_37000.npy",
+        "caption": "Apply super-resolution to the audio to improve clarity: Children speak and laugh then a pig oinks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/t25U-v4k4ts_40000_50000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/t25U-v4k4ts_40000_50000.npy",
+        "caption": "Increase resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/u9A6VZQCZpU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/u9A6VZQCZpU_30000_40000.npy",
+        "caption": "Super-resolution: A man speaks on an intercom as speedboats pass by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xO-Q2BlIIPU_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xO-Q2BlIIPU_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/yBksF4L5Ics_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/yBksF4L5Ics_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A woman speaks and a child whines"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/w9ejUrlz1GM_460000_470000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/w9ejUrlz1GM_460000_470000.npy",
+        "caption": "Convert low-resolution audio to high-resolution: Someone crumples plastic and speaks"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uWCKXYVzJt0_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uWCKXYVzJt0_30000_40000.npy",
+        "caption": "Increase the sampling rate of the audio: A cuckoo clock chimes and whistles then stops and keeps on ticking"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/spJCm8tD9Zo_90000_100000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/spJCm8tD9Zo_90000_100000.npy",
+        "caption": "Super-resolution"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/sAam2NqGhLY_20000_30000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/sAam2NqGhLY_20000_30000.npy",
+        "caption": "Boost the resolution of the audio track: Distant faint rustling and clattering with nearby wheezing and snoring"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/uMT_TDZ2mb4_30000_40000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/uMT_TDZ2mb4_30000_40000.npy",
+        "caption": "Upscale audio to higher resolution: A crowd of men and woman chatter as a vehicle goes by"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/sr/mel/xw5cmiqbaUg_160000_170000.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_val/mel/xw5cmiqbaUg_160000_170000.npy",
+        "caption": "Upscale audio to higher resolution: A motor runs and a baby whines and cries for a moment"
+    }
+]
