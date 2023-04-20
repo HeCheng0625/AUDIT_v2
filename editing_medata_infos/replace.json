@@ -1,0 +1,52 @@
+[
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/0.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/0.npy",
+        "caption": "Swap acoustic guitar with a new sound of bowed string instrument"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/1.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/1.npy",
+        "caption": "Swap out thunder with someone is hitting a bike bell"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/2.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/2.npy",
+        "caption": "Exchange a distant explosion is happening with a bird is twittering in a jungle"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/3.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/3.npy",
+        "caption": "Replace a dog is growling to car"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/4.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/4.npy",
+        "caption": "Substitute bark with boom"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/5.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/5.npy",
+        "caption": "Replace raindrop with a new audio of tearing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/6.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/6.npy",
+        "caption": "Exchange sigh with an alarm is sounding"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/7.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/7.npy",
+        "caption": "Replace splash and splatter with footsteps are walking in crunchy dry grass"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/8.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/8.npy",
+        "caption": "Exchange tearing with frog"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/replace/in/mel/9.npy",
+        "out_mel": "/blob/v-yuancwang/AUDITDATA/replace/out/mel/9.npy",
+        "caption": "Swap out trumpet with glockenspiel"
+    }
+]
