@@ -1,0 +1,52 @@
+[
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_0.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/ysrbMk0v9rk_30000_40000.npy",
+        "caption": "Erase: bowed string instrument"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_1.npy",
+        "out_mel": "/blob/v-yuancwang/WavCaps/AudioSet_SL/mel/UUzgQLrKVeM.npy",
+        "caption": "Erase an owl is hooting from the track"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_2.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/qxZj6keSeCI_50000_60000.npy",
+        "caption": "Delete tambourine"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_3.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/7TSiD_mfh_Y_20000_30000.npy",
+        "caption": "Omit water is being poured into a glass cup with ice from the audio"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_4.npy",
+        "out_mel": "/blob/v-yuancwang/WavCaps/AudioSet_SL/mel/SUjO41fGLyY.npy",
+        "caption": "Trim: alarm followed by a beep sounds like missile locking system"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_5.npy",
+        "out_mel": "/blob/v-yuancwang/WavCaps/BBC/mel/0010002.npy",
+        "caption": "Drop female singing"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_6.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/vggsound/mel/Vzkie4KsLHg_18000_28000.npy",
+        "caption": "Delete: bowed string instrument"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_7.npy",
+        "out_mel": "/blob/v-yuancwang/WavCaps/BBC/mel/07014041.npy",
+        "caption": "Omit: snare drum"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_8.npy",
+        "out_mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/IwCWHG2dKeU_560000_570000.npy",
+        "caption": "Drop: laughter"
+    },
+    {
+        "in_mel": "/blob/v-yuancwang/AUDITDATA/add_1/mel/add_9.npy",
+        "out_mel": "/blob/v-yuancwang/WavCaps/BBC/mel/NHU05012106.npy",
+        "caption": "Drop squeak"
+    }
+]
