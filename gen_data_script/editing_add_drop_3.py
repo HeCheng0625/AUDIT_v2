@@ -110,9 +110,9 @@ with open(audioset_sl_json, "r") as f:
     audioset_sl_infos = json.load(f)
 with open(bbc_json, "r") as f:
     bbc_infos = json.load(f)
-with open(bbc_json, "r") as f:
+with open(soundbible_json, "r") as f:
     soundbible_infos = json.load(f)
-with open(bbc_json, "r") as f:
+with open(fsd_10s_json, "r") as f:
     fsd_10s_infos = json.load(f)
 with open(vgg_json, "r") as f:
     vgg_infos = json.load(f)
