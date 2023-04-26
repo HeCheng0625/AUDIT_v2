@@ -410,30 +410,19 @@ def main():
     )
     noise_scheduler = DDPMScheduler.from_pretrained(args.pretrained_model_name_or_path, subfolder="scheduler")
 
-    src_data = []
-    tgt_data = []
-    text_data = []
+    dataset = load_dataset('json', data_files=[
+        os.path.join("/home/v-yuancwang/AUDIT_v2/editing_medata_infos", json_file) for json_file in os.listdir("/home/v-yuancwang/AUDIT_v2/editing_medata_infos")
+        ])
 
-    train_files = ["inpainting_refine.txt", "sr_refine.txt", "add_refine.txt", "drop_refine.txt", "replacement_refine.txt"]
-    for file_name in train_files:
-        with open(os.path.join("/home/v-yuancwang/AudioEditing/metadata_infos", file_name), "r") as f:
-            for line in f.readlines():
-                src, tgt, text = line.replace("\n", "").split("   ")
-                src_data.append(src)
-                tgt_data.append(tgt)
-                text_data.append(text)
+    dataset = dataset["train"]
 
-    # add gendata
-
-    dataset = Dataset.from_dict({"src": src_data, "tgt": tgt_data, "text": text_data})
-
-    src_column, tgt_column, caption_column = "src", "tgt", "text"
+    src_column, tgt_column, caption_column = "in_mel", "out_mel", "caption"
 
     def tokenize_captions(examples, is_train=True):
         captions = []
         for caption in examples[caption_column]:
             if isinstance(caption, str):
-                p = np.random.choice([0, 1], p=[0.925, 0.0750])
+                p = np.random.choice([0, 1], p=[0.90, 0.10])
                 if p==0:
                     captions.append(caption)
                 else:
@@ -450,8 +439,8 @@ def main():
         return input_ids
 
     def preprocess_train(examples):
-        srcs = [np.expand_dims(np.load(src), 0) for src in examples[src_column]]
-        tgts = [np.expand_dims(np.load(tgt), 0) for tgt in examples[tgt_column]]
+        srcs = [np.expand_dims(np.load(src)[:,:624], 0) for src in examples[src_column]]
+        tgts = [np.expand_dims(np.load(tgt)[:,:624], 0) for tgt in examples[tgt_column]]
         examples["src_values"] = [torch.Tensor(src) for src in srcs]
         examples["tgt_values"] = [torch.Tensor(tgt) for tgt in tgts]
         examples["input_ids"] = tokenize_captions(examples)
@@ -465,10 +454,13 @@ def main():
         train_dataset = dataset.with_transform(preprocess_train)
 
     def collate_fn(examples):
-        src_values = torch.stack([example["src_values"] for example in examples])
-        src_values = src_values.to(memory_format=torch.contiguous_format).float()
-        tgt_values = torch.stack([example["tgt_values"] for example in examples])
-        tgt_values = tgt_values.to(memory_format=torch.contiguous_format).float()
+        try:
+            src_values = torch.stack([example["src_values"] for example in examples])
+            src_values = src_values.to(memory_format=torch.contiguous_format).float()
+            tgt_values = torch.stack([example["tgt_values"] for example in examples])
+            tgt_values = tgt_values.to(memory_format=torch.contiguous_format).float()
+        except:
+            print(examples)
         
         input_ids = [example["input_ids"] for example in examples]
         padded_tokens = tokenizer.pad({"input_ids": input_ids}, padding=True, return_tensors="pt")
@@ -649,14 +641,17 @@ def main():
                         if args.use_ema:
                             ema_unet.copy_to(unet.parameters())
 
-                        pipeline = StableDiffusionPipeline.from_pretrained(
-                            args.pretrained_model_name_or_path,
-                            text_encoder=text_encoder,
-                            vae=vae,
-                            unet=accelerator.unwrap_model(unet),
-                            revision=args.revision,
-                        )
-                        pipeline.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
+                        save_unet = accelerator.unwrap_model(unet)
+                        save_unet.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
+                        
+                        # pipeline = StableDiffusionPipeline.from_pretrained(
+                        #     args.pretrained_model_name_or_path,
+                        #     text_encoder=text_encoder,
+                        #     vae=vae,
+                        #     unet=accelerator.unwrap_model(unet),
+                        #     revision=args.revision,
+                        # )
+                        # pipeline.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
 
             logs = {"step_loss": loss.detach().item(), "lr": lr_scheduler.get_last_lr()[0]}
             progress_bar.set_postfix(**logs)
@@ -671,14 +666,17 @@ def main():
         if args.use_ema:
             ema_unet.copy_to(unet.parameters())
 
-        pipeline = StableDiffusionPipeline.from_pretrained(
-            args.pretrained_model_name_or_path,
-            text_encoder=text_encoder,
-            vae=vae,
-            unet=unet,
-            revision=args.revision,
-        )
-        pipeline.save_pretrained(args.output_dir)
+        save_unet = accelerator.unwrap_model(unet)
+        save_unet.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
+
+        # pipeline = StableDiffusionPipeline.from_pretrained(
+        #     args.pretrained_model_name_or_path,
+        #     text_encoder=text_encoder,
+        #     vae=vae,
+        #     unet=unet,
+        #     revision=args.revision,
+        # )
+        # pipeline.save_pretrained(args.output_dir)
 
         # if args.push_to_hub:
         #     repo.push_to_hub(commit_message="End of training", blocking=False, auto_lfs_prune=True)
