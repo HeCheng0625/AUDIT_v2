@@ -359,7 +359,7 @@ def main():
         "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-40000",
         subfolder="vae"
     )
-    unet = UNet2DConditionModel.from_pretrained(
+    unet = UNet2DConditionModel.from_config(
         args.pretrained_model_name_or_path,
         subfolder="unet"
     )
