@@ -1,0 +1,38 @@
+[
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/---1_cCGK4M_0_10000.npy",
+        "caption": "Idling car, train blows horn and passes"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/---lTs1dxhU_30000_40000.npy",
+        "caption": "A racing vehicle engine is heard passing by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--0PQM4-hqg_30000_40000.npy",
+        "caption": "A waterfall is pouring into a stream"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--1l6WGE7AU_30000_40000.npy",
+        "caption": "A man speaks earnestly"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--2XRMjyizo_0_10000.npy",
+        "caption": "Male voice with boots tapping on the floor"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--330hg-Ocw_30000_40000.npy",
+        "caption": "Sound of an engine running while idle and random sounds of small solid objects moving in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--8puiAGLhs_30000_40000.npy",
+        "caption": "Keys jingle as a car attempts to start"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--C2fgwf0vg_200000_210000.npy",
+        "caption": "A man talking and walking on leaves"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/--CHY2qO5zc_30000_40000.npy",
+        "caption": "A clock is chiming"
+    }
+]

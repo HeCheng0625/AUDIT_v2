@@ -152,10 +152,10 @@ class MelDataset(torch.utils.data.Dataset):
 
         if not self.fine_tuning:
             if self.split:
-                if audio.size(1) >= self.segment_size:
+                if audio.size(1) >= self.segment_size:   # (1, 160000)
                     max_audio_start = audio.size(1) - self.segment_size
                     audio_start = random.randint(0, max_audio_start)
-                    audio = audio[:, audio_start:audio_start+self.segment_size]
+                    audio = audio[:, audio_start:audio_start+self.segment_size]   # (1, 8192)
                 else:
                     audio = torch.nn.functional.pad(audio, (0, self.segment_size - audio.size(1)), 'constant')
 
@@ -165,7 +165,9 @@ class MelDataset(torch.utils.data.Dataset):
         else:
             # mel = np.load(
             #     os.path.join(self.base_mels_path, os.path.splitext(os.path.split(filename)[-1])[0] + '.npy'))
-            mel = np.load(filename.replace("/wav/","/mel/").replace(".wav", ".npy"))
+            mel = np.load(filename.replace("/wav/","/vae_mel/").replace(".wav", ".npy"))[:,:624]
+            # mel = np.load(filename.replace("/wav/","/vae/").replace(".wav", ".npy"))[:,:624]
+
             if len(mel.shape) == 2:
                 mel = np.expand_dims(mel, 0)
             mel = torch.from_numpy(mel)
@@ -174,10 +176,10 @@ class MelDataset(torch.utils.data.Dataset):
                 mel = mel.unsqueeze(0)
 
             if self.split:
-                frames_per_seg = math.ceil(self.segment_size / self.hop_size)
+                frames_per_seg = math.ceil(self.segment_size / self.hop_size)   # 8192 / 256 = 32
 
                 if audio.size(1) >= self.segment_size:
-                    mel_start = random.randint(0, mel.size(2) - frames_per_seg - 1)
+                    mel_start = random.randint(0, mel.size(2) - frames_per_seg - 1)   # (0, 591)
                     mel = mel[:, :, mel_start:mel_start + frames_per_seg]
                     audio = audio[:, mel_start * self.hop_size:(mel_start + frames_per_seg) * self.hop_size]
                 else:
