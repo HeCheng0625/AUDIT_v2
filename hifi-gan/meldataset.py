@@ -77,17 +77,20 @@ def get_dataset_filelist_direct():
     training_files = []
     validation_files = []
     
-    for json_file in ["ac_test.json", "ac_train.json", "audioset_sl.json",
-                        "bbc.json", "fsd_2s.json", "fsd_5s.json", "fsd_10s.json",
-                        "fsd50k_2s.json", "fsd50k_5s.json", "fsd50k_10s.json",
-                        "soundbible.json", "vggsound.json"]:
-        with open(os.path.join("/home/v-yuancwang/AUDIT_v2/medata_infos", json_file), "r") as f:
+    # for json_file in ["ac_test.json", "ac_train.json", "audioset_sl.json",
+    #                     "bbc.json", "fsd_2s.json", "fsd_5s.json", "fsd_10s.json",
+    #                     "fsd50k_2s.json", "fsd50k_5s.json", "fsd50k_10s.json",
+    #                     "soundbible.json", "vggsound.json"]:
+    for json_file in ["ac_train.json", "audioset_sl.json",
+                        "bbc.json", "soundbible.json", "vggsound.json"]:
+        # with open(os.path.join("/home/v-yuancwang/AUDIT_v2/medata_infos", json_file), "r") as f:
+        with open(os.path.join("/home/v-yuancwang/AUDIT_v2/hifigan_ft_infos", json_file), "r") as f:
             json_lists = json.load(f)
         for info in json_lists:
             training_files.append(info["mel"].replace("/mel/", "/wav/").replace(".npy", ".wav"))
-    
+        
     for json_file in ["ac_val.json"]:
-        with open(os.path.join("/home/v-yuancwang/AUDIT_v2/medata_infos", json_file), "r") as f:
+        with open(os.path.join("/home/v-yuancwang/AUDIT_v2/hifigan_ft_infos", json_file), "r") as f:
             json_lists = json.load(f)
         for info in json_lists:
             validation_files.append(info["mel"].replace("/mel/", "/wav/").replace(".npy", ".wav"))

@@ -1,0 +1,82 @@
+[
+    {
+    "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-40ekxiTghU_30000_40000.npy",
+    "caption": "Some muffle and birds chirping in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-450EsuQYao_110000_120000.npy",
+        "caption": "Birds chirping man speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-45YCn58LSk_90000_100000.npy",
+        "caption": "A man talking and sizzling followed by scraping"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-47OMrNfA0A_30000_40000.npy",
+        "caption": "Train honking and bell ringing"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-490yf0Fsj8_30000_40000.npy",
+        "caption": "Low background conversation midst loud splashing and unsteady streams of pouring"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4B1PkgXOMI_80000_90000.npy",
+        "caption": "Sniffling, heavy breathing and a sneeze"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4BWc0v8Y7U_70000_80000.npy",
+        "caption": "Birds chirp, baby chicks cheep, a rooster crows, and an animal grunt occurs"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4D3Gkyisyc_30000_40000.npy",
+        "caption": "Men speaking while vehicle engine idles"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4EgiS-jnnw_30000_40000.npy",
+        "caption": "Boat engine riding in the water"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4KDusm_mD0_30000_40000.npy",
+        "caption": "A man speaking and a crowd clapping and cheering"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4LOcUpXMzc_30000_40000.npy",
+        "caption": "Mom talking to sneezing baby"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4ZPUTC3dQs_30000_40000.npy",
+        "caption": "Multiple ducks are quacking in the background"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4c0GKMHLkE_0_10000.npy",
+        "caption": "Wood is being sawed"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4c9EgbBqro_30000_40000.npy",
+        "caption": "Woman speaking narration"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4i8PM8TZSU_30000_40000.npy",
+        "caption": "A female speaking into a microphone"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4idfEmhn4g_30000_40000.npy",
+        "caption": "Traffic in the distance, some scraping, a clink and a digital beep"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4jYmwwf6h4_0_10000.npy",
+        "caption": "An adult female is speaking"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4k2KQXBucU_200000_210000.npy",
+        "caption": "Vehicle racing by"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4l3tDv8uLI_210000_220000.npy",
+        "caption": "Helicopter blades are rotating"
+    },
+    {
+        "mel": "/blob/v-yuancwang/DiffAudioImg/VGGSound/data/ac_train/mel/-4o0jRbgHr4_30000_40000.npy",
+        "caption": "A lot of ruffling noises and a cat meowing"
+    }
+]
