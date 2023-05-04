@@ -90,6 +90,7 @@ def get_dataset_filelist_direct():
             training_files.append(info["mel"].replace("/mel/", "/wav/").replace(".npy", ".wav"))
         
     for json_file in ["ac_val.json"]:
+        # with open(os.path.join("/home/v-yuancwang/AUDIT_v2/medata_infos", json_file), "r") as f:
         with open(os.path.join("/home/v-yuancwang/AUDIT_v2/hifigan_ft_infos", json_file), "r") as f:
             json_lists = json.load(f)
         for info in json_lists:
