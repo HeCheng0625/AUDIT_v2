@@ -229,6 +229,14 @@ def parse_args():
             ' `--checkpointing_steps`, or `"latest"` to automatically select the last available checkpoint.'
         ),
     )
+    parser.add_argument(
+        "--total_inference_steps",
+        type=str,
+        default=200,
+        help=(
+            "total inference steps for the teacher model"
+        ),
+    )
 
     args = parser.parse_args()
     env_local_rank = int(os.environ.get("LOCAL_RANK", -1))
@@ -309,6 +317,28 @@ class EMAModel:
             for p in self.shadow_params
         ]
 
+def get_beta_cum_t(betas, timesteps, num_train_timesteps=1000):
+    betas = betas.to(device=timesteps.device)
+    dt = 1 / num_train_timesteps
+    betas_cumsum = torch.cumsum(betas, dim=0)
+    return betas_cumsum[timesteps] * dt
+
+def get_mean(betas, timesteps, num_train_timesteps=1000):
+    return torch.exp(-0.5 * get_beta_cum_t(betas, timesteps, num_train_timesteps))
+
+def get_variance(betas, timesteps, num_train_timesteps=1000):
+    return 1.0 - torch.exp(-get_beta_cum_t(betas, timesteps, num_train_timesteps))
+
+def get_logp_xt(pred_noise, betas, timesteps, num_train_timesteps=1000):
+    variance = get_variance(betas, timesteps, num_train_timesteps).to(device=pred_noise.device, dtype=pred_noise.dtype)
+    return - pred_noise / (variance.unsqueeze(-1).unsqueeze(-1).unsqueeze(-1) ** 0.5)
+
+def ode_step(xt, pred_noise, betas, total_inference_steps, inference_steps, num_train_timesteps=1000):
+    betas = betas.to(device=inference_steps.device)
+    dt = - 1 / total_inference_steps
+    logp_xt = get_logp_xt(pred_noise, betas, inference_steps, num_train_timesteps)
+    return xt + dt * (-0.5) * (xt + logp_xt) * betas[inference_steps].unsqueeze(-1).unsqueeze(-1).unsqueeze(-1).to(device=pred_noise.device)
+
 def main():
     args = parse_args()
     logging_dir = os.path.join(args.output_dir, args.logging_dir)
@@ -359,7 +389,16 @@ def main():
         "/blob/v-yuancwang/AudioEditingModel/VAE_GAN/checkpoint-40000",
         subfolder="vae"
     )
+    unet_ode = UNet2DConditionModel.from_pretrained(
+        "/blob/v-yuancwang/AUDITPLUS/AUDIT_G_0/checkpoint-450000"
+    )
+
     unet = UNet2DConditionModel.from_config(
+        args.pretrained_model_name_or_path,
+        subfolder="unet"
+    )
+
+    unet_temp = UNet2DConditionModel.from_config(
         args.pretrained_model_name_or_path,
         subfolder="unet"
     )
@@ -373,9 +412,9 @@ def main():
                 f" correctly and a GPU is available: {e}"
             )
 
-    # Freeze vae and text_encoder
     vae.requires_grad_(False)
     text_encoder.requires_grad_(False)
+    unet_ode.requires_grad_(False)
 
     if args.gradient_checkpointing:
         unet.enable_gradient_checkpointing()
@@ -396,6 +435,9 @@ def main():
         eps=args.adam_epsilon,
     )
     noise_scheduler = DDPMScheduler.from_pretrained(args.pretrained_model_name_or_path, subfolder="scheduler")
+    ode_betas = noise_scheduler.betas.clone().detach()
+    num_train_timesteps = noise_scheduler.num_train_timesteps
+    ode_betas = ode_betas * num_train_timesteps
 
     dataset = load_dataset('json', data_files=[
         "/home/v-yuancwang/AUDIT_v2/medata_infos/ac_train.json",
@@ -485,6 +527,8 @@ def main():
     # as these models are only used for inference, keeping weights in full precision is not required.
     text_encoder.to(accelerator.device, dtype=weight_dtype)
     vae.to(accelerator.device, dtype=weight_dtype)
+    unet_ode.to(accelerator.device, dtype=weight_dtype)
+    unet_temp.to(accelerator.device, dtype=weight_dtype)
 
     # Create EMA for the unet.
     if args.use_ema:
@@ -565,27 +609,33 @@ def main():
                 noise = torch.randn_like(latents_tgt)
                 bsz = latents_tgt.shape[0]
 
-                timesteps = torch.randint(0, noise_scheduler.num_train_timesteps, (bsz,), device=latents_tgt.device)
+                timesteps = torch.randint(1, noise_scheduler.num_train_timesteps, (bsz,), device=latents_tgt.device)
+                # [1,2,...,999]
                 timesteps = timesteps.long()
+                timesteps_step = timesteps - 1
+                # [0,2,...,998]
 
-                # Add noise to the latents according to the noise magnitude at each timestep
-                # (this is the forward diffusion process)
                 noisy_latents = noise_scheduler.add_noise(latents_tgt, noise, timesteps)
 
                 # Get the text embedding for conditioning
                 encoder_hidden_states = text_encoder(batch["input_ids"])[0]
 
-                # Get the target for loss depending on the prediction type
-                if noise_scheduler.config.prediction_type == "epsilon":
-                    target = noise
-                elif noise_scheduler.config.prediction_type == "v_prediction":
-                    target = noise_scheduler.get_velocity(latents_tgt, noise, timesteps)
-                else:
-                    raise ValueError(f"Unknown prediction type {noise_scheduler.config.prediction_type}")
+                # Compute loss for consistency distillation
+                with torch.no_grad():
+                    pred_noise = unet_ode(noisy_latents, timesteps, encoder_hidden_states).sample
+                    noisy_latents_step = ode_step(noisy_latents, pred_noise, ode_betas, total_inference_steps=1000, inference_steps=timesteps)
 
-                # Predict the noise residual and compute loss
-                model_pred = unet(noisy_latents, timesteps, encoder_hidden_states).sample
-                loss = F.mse_loss(model_pred.float(), target.float(), reduction="mean")
+                c_skip = 0.25 / (0.25 + (timesteps / 1000 - 0.0) ** 2)
+                c_out = 0.5 * (timesteps / 1000 - 0.0) / ((timesteps / 1000) ** 2 + 0.25) ** 0.5
+                pred_target = c_skip.unsqueeze(-1).unsqueeze(-1) * noisy_latents + c_out.unsqueeze(-1).unsqueeze(-1) * unet(noisy_latents, timesteps, encoder_hidden_states).sample
+
+                with torch.no_grad():
+                    c_skip_step = 0.25 / (0.25 + (timesteps_step  / 1000 - 0.0) ** 2)
+                    c_out_step = 0.5 * (timesteps_step  / 1000 - 0.0) / ((timesteps_step  / 1000) ** 2 + 0.25) ** 0.5
+                    ema_unet.copy_to(unet_temp.parameters())
+                    pred_target_step = c_skip_step.unsqueeze(-1).unsqueeze(-1) * noisy_latents_step + c_out_step.unsqueeze(-1).unsqueeze(-1) * unet_temp(noisy_latents_step, timesteps_step, encoder_hidden_states).sample
+                
+                loss = F.mse_loss(pred_target, pred_target_step)
 
                 # Gather the losses across all processes for logging (if we use distributed training).
                 avg_loss = accelerator.gather(loss.repeat(args.train_batch_size)).mean()
@@ -614,20 +664,8 @@ def main():
                         accelerator.save_state(save_path)
                         logger.info(f"Saved state to {save_path}")
 
-                        # unet = accelerator.unwrap_model(unet)
-                        if args.use_ema:
-                            ema_unet.copy_to(unet.parameters())
-
-                        save_unet = accelerator.unwrap_model(unet)
-                        save_unet.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
-                        # pipeline = StableDiffusionPipeline.from_pretrained(
-                        #     args.pretrained_model_name_or_path,
-                        #     text_encoder=text_encoder,
-                        #     vae=vae,
-                        #     unet=accelerator.unwrap_model(unet),
-                        #     revision=args.revision,
-                        # )
-                        # pipeline.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
+                        ema_unet.copy_to(unet_temp.parameters())
+                        unet_temp.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
 
             logs = {"step_loss": loss.detach().item(), "lr": lr_scheduler.get_last_lr()[0]}
             progress_bar.set_postfix(**logs)
@@ -644,14 +682,6 @@ def main():
 
         save_unet = accelerator.unwrap_model(unet)
         save_unet.save_pretrained(os.path.join(args.output_dir, f"checkpoint-{global_step}"))
-        # pipeline = StableDiffusionPipeline.from_pretrained(
-        #     args.pretrained_model_name_or_path,
-        #     text_encoder=text_encoder,
-        #     vae=vae,
-        #     unet=unet,
-        #     revision=args.revision,
-        # )
-        # pipeline.save_pretrained(args.output_dir)
 
     accelerator.end_training()
 
