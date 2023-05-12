@@ -14,4 +14,4 @@ accelerate launch /home/v-yuancwang/AUDIT_v2/como/train_audit_cd.py \
   --learning_rate=2e-5 \
   --max_grad_norm=1 \
   --lr_scheduler="constant" --lr_warmup_steps=0 \
-  --output_dir="/blob/v-yuancwang/AUDITPLUS/AUDIT_CD_1000" \
+  --output_dir="/blob/v-yuancwang/AUDITPLUS/AUDIT_CD_100" \

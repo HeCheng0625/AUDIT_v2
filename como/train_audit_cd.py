@@ -393,14 +393,12 @@ def main():
         "/blob/v-yuancwang/AUDITPLUS/AUDIT_G_0/checkpoint-450000"
     )
 
-    unet = UNet2DConditionModel.from_config(
-        args.pretrained_model_name_or_path,
-        subfolder="unet"
+    unet = UNet2DConditionModel.from_pretrained(
+        "/blob/v-yuancwang/AUDITPLUS/AUDIT_G_0/checkpoint-450000"
     )
 
-    unet_temp = UNet2DConditionModel.from_config(
-        args.pretrained_model_name_or_path,
-        subfolder="unet"
+    unet_temp = UNet2DConditionModel.from_pretrained(
+        "/blob/v-yuancwang/AUDITPLUS/AUDIT_G_0/checkpoint-450000"
     )
 
     if is_xformers_available():
@@ -609,11 +607,20 @@ def main():
                 noise = torch.randn_like(latents_tgt)
                 bsz = latents_tgt.shape[0]
 
-                timesteps = torch.randint(1, noise_scheduler.num_train_timesteps, (bsz,), device=latents_tgt.device)
-                # [1,2,...,999]
+                # timesteps = torch.randint(1, 1000, (bsz,), device=latents_tgt.device)
+                # # [1,2,...,999]
+                # timesteps = timesteps.long()
+                # timesteps_step = timesteps - 1
+                # # [0,2,...,998]
+
+                timesteps = torch.randint(1, 100, (bsz,), device=latents_tgt.device)
+                # [1, 2,..., 99]
+                timesteps = timesteps
                 timesteps = timesteps.long()
-                timesteps_step = timesteps - 1
-                # [0,2,...,998]
+                timesteps = timesteps * 10
+                # [10, 20,..., 990]
+                timesteps_step = timesteps - 10
+                # [0, 10,..., 980]
 
                 noisy_latents = noise_scheduler.add_noise(latents_tgt, noise, timesteps)
 
@@ -623,17 +630,17 @@ def main():
                 # Compute loss for consistency distillation
                 with torch.no_grad():
                     pred_noise = unet_ode(noisy_latents, timesteps, encoder_hidden_states).sample
-                    noisy_latents_step = ode_step(noisy_latents, pred_noise, ode_betas, total_inference_steps=1000, inference_steps=timesteps)
+                    noisy_latents_step = ode_step(noisy_latents, pred_noise, ode_betas, total_inference_steps=100, inference_steps=timesteps)
 
                 c_skip = 0.25 / (0.25 + (timesteps / 1000 - 0.0) ** 2)
                 c_out = 0.5 * (timesteps / 1000 - 0.0) / ((timesteps / 1000) ** 2 + 0.25) ** 0.5
-                pred_target = c_skip.unsqueeze(-1).unsqueeze(-1) * noisy_latents + c_out.unsqueeze(-1).unsqueeze(-1) * unet(noisy_latents, timesteps, encoder_hidden_states).sample
+                pred_target = c_skip.unsqueeze(-1).unsqueeze(-1).unsqueeze(-1) * noisy_latents + c_out.unsqueeze(-1).unsqueeze(-1).unsqueeze(-1) * unet(noisy_latents, timesteps, encoder_hidden_states).sample
 
                 with torch.no_grad():
                     c_skip_step = 0.25 / (0.25 + (timesteps_step  / 1000 - 0.0) ** 2)
                     c_out_step = 0.5 * (timesteps_step  / 1000 - 0.0) / ((timesteps_step  / 1000) ** 2 + 0.25) ** 0.5
                     ema_unet.copy_to(unet_temp.parameters())
-                    pred_target_step = c_skip_step.unsqueeze(-1).unsqueeze(-1) * noisy_latents_step + c_out_step.unsqueeze(-1).unsqueeze(-1) * unet_temp(noisy_latents_step, timesteps_step, encoder_hidden_states).sample
+                    pred_target_step = c_skip_step.unsqueeze(-1).unsqueeze(-1).unsqueeze(-1) * noisy_latents_step + c_out_step.unsqueeze(-1).unsqueeze(-1).unsqueeze(-1) * unet_temp(noisy_latents_step, timesteps_step, encoder_hidden_states).sample
                 
                 loss = F.mse_loss(pred_target, pred_target_step)
 
