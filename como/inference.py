@@ -48,7 +48,7 @@ model_path = "/blob/v-yuancwang/AudioEditingModel/Diffusion_SG/checkpoint-350000
 
 unet_path = "/blob/v-yuancwang/AUDITPLUS/AUDIT_CD_100/checkpoint-{}".format(str(checkpoint))
 save_path = "/blob/v-yuancwang/AUDITDATA/AUDIT_CD_INFER"
-save_path = os.path.join(save_path, "infer_step_{}_gs_{}_cp_{}".format(str(num_inference_steps), str(guidance_scale), str(checkpoint)), "wav")
+save_path = os.path.join(save_path, "infer_step_{}_gs_{}_cp_{}".format(str(num_inference_steps), str(guidance_scale), str(checkpoint)), "mel")
 os.makedirs(save_path, exist_ok=True)
 
 vae = AutoencoderKL.from_pretrained(model_path, subfolder="vae")
